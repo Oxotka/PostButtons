@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="8c55997f-b80e-4a86-9937-07e1ef063fca">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОбъектыСтроительства" category="Object">
+				<xr:TypeId>36ab9a07-6bc3-41dc-91a5-f0756fdc84d1</xr:TypeId>
+				<xr:ValueId>b1f32468-3391-445e-95e6-b3ae9451781f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОбъектыСтроительства" category="Ref">
+				<xr:TypeId>d073c322-61f8-49cf-995c-97163035abef</xr:TypeId>
+				<xr:ValueId>294b467f-657a-4e7c-a39c-d8d456b9064b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОбъектыСтроительства" category="Selection">
+				<xr:TypeId>bf9221b2-9c33-4484-a305-de2e9ad6b0e0</xr:TypeId>
+				<xr:ValueId>4816cf4b-6593-42af-a88f-e67a0ebab13f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОбъектыСтроительства" category="List">
+				<xr:TypeId>8716d36b-97a2-4e69-be88-3cd7fb47aa4d</xr:TypeId>
+				<xr:ValueId>fedd0d18-2e1b-4bf2-bcf6-fdecd0d684be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОбъектыСтроительства" category="Manager">
+				<xr:TypeId>f04c785b-5caa-40f3-b901-8c94853879d4</xr:TypeId>
+				<xr:ValueId>f567b493-ec4c-4cf1-af8f-7ff833428a0f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОбъектыСтроительства</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

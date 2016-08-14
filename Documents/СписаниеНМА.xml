@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="0945c729-d4b3-46e0-864e-db5412c3b3f3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеНМА" category="Object">
+				<xr:TypeId>2ec8361c-9fab-4570-b0e6-3d7b53d9146e</xr:TypeId>
+				<xr:ValueId>ed59d959-a1a2-4b7b-bff4-9a31a960c938</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеНМА" category="Ref">
+				<xr:TypeId>6d82a26c-d989-46d3-8d31-2e88d1baa440</xr:TypeId>
+				<xr:ValueId>57f9feab-7b73-4891-b7db-492a9113554b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеНМА" category="Selection">
+				<xr:TypeId>3164e3d4-f6eb-4513-9477-0aa21cd0ae02</xr:TypeId>
+				<xr:ValueId>40521391-4d54-4a43-87bc-8068d8fe279d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеНМА" category="List">
+				<xr:TypeId>1b28d33f-f96c-4695-b56a-31bc06187b4a</xr:TypeId>
+				<xr:ValueId>2be10d3c-c5c5-40c8-a0d6-ce0a7b1aee8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеНМА" category="Manager">
+				<xr:TypeId>0bb6fd7a-7827-4599-98ca-f2ef98fa039b</xr:TypeId>
+				<xr:ValueId>8d40223b-35c1-4fa7-874a-6ce8aa8f1343</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СписаниеНМА</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a1357aaa-903b-4781-af68-59c331d0df58">
+				<Properties>
+					<Name>Субконто</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоХозрасчетные</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="09d95cf3-057f-44e7-a203-103c609f0247">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="599bf129-c880-440f-9b2c-c2175dcdc0c8">
+				<Properties>
+					<Name>ПодразделениеОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7e9744cb-3a28-4283-bca9-57a55c0f5988">
+				<Properties>
+					<Name>НематериальныйАктив</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НематериальныеАктивы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="472ae2b7-b794-4415-a154-9cd7eef9ce3c">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7c59efe0-dd3b-46fe-a1d1-a0b1e7934818">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7f997630-2b45-44d6-9c78-a978935e9cff">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="522d0650-375d-4138-adb6-ff6836f31334">
+				<Properties>
+					<Name>СчетСписания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

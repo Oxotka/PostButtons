@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="64207664-e38a-4747-b2ba-801b15123686">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийВыдачаДенежныхДокументов" category="Ref">
+				<xr:TypeId>bc8bd0c7-7770-4b4e-ab7f-32880df16af2</xr:TypeId>
+				<xr:ValueId>abb90e8d-0884-4b0b-8cc9-3a320f9e68a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийВыдачаДенежныхДокументов" category="Manager">
+				<xr:TypeId>433ac7c6-35c4-4f8c-a008-bc6e4d09d872</xr:TypeId>
+				<xr:ValueId>e9438825-b49e-4706-a136-2b82d35502cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийВыдачаДенежныхДокументов" category="List">
+				<xr:TypeId>43bc2f98-e19f-43a6-8227-38586fcdff88</xr:TypeId>
+				<xr:ValueId>76da3d5c-fb5a-4f27-9b9c-4bca3f820df7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийВыдачаДенежныхДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="8fe234b3-3d28-40e0-8fbc-31f38b378193">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КнигаПродажДляПередачиВЭлектронномВиде" category="Object">
+				<xr:TypeId>29711f9a-fb4c-4ef7-bc60-50fc7680fbe2</xr:TypeId>
+				<xr:ValueId>0df2f0db-f9ce-413f-adc4-df693f8a2161</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КнигаПродажДляПередачиВЭлектронномВиде" category="Ref">
+				<xr:TypeId>3808bc1e-6651-4264-8367-8dc2b32ea336</xr:TypeId>
+				<xr:ValueId>04aee616-e13c-4392-a78a-7892682189cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КнигаПродажДляПередачиВЭлектронномВиде" category="Selection">
+				<xr:TypeId>2990ba7f-9be6-4c7f-939f-41c4c8b12445</xr:TypeId>
+				<xr:ValueId>f6bbc0ce-bbeb-4193-85ff-e0ec6be72790</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КнигаПродажДляПередачиВЭлектронномВиде" category="List">
+				<xr:TypeId>b99e2723-6ab5-4d9b-9ff4-a2d1c1d803e1</xr:TypeId>
+				<xr:ValueId>d85ba2dd-1167-4932-8da8-3aa4584fa946</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КнигаПродажДляПередачиВЭлектронномВиде" category="Manager">
+				<xr:TypeId>8180a596-3eb8-4844-8849-1d31f32fa3b7</xr:TypeId>
+				<xr:ValueId>b07cab24-056c-4ec1-96a6-b12d7399a88b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КнигаПродажДляПередачиВЭлектронномВиде</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

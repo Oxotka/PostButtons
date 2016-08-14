@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="8ab9cf42-cd17-47e1-8894-164722b30453">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДопЛистКнигиПокупокДляПередачиВЭлектронномВиде" category="Object">
+				<xr:TypeId>55d0d92f-e0fe-482d-a738-2bc1b65faa48</xr:TypeId>
+				<xr:ValueId>3d3efb5a-2b2b-4995-9cc3-efa5fb2d6429</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДопЛистКнигиПокупокДляПередачиВЭлектронномВиде" category="Ref">
+				<xr:TypeId>24b5fce2-0ef7-440e-bc72-2997d0097bb6</xr:TypeId>
+				<xr:ValueId>507234f6-7717-4d33-8c64-35d8eb2870dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДопЛистКнигиПокупокДляПередачиВЭлектронномВиде" category="Selection">
+				<xr:TypeId>cc0c09b1-9345-4f45-9f42-f477ec000143</xr:TypeId>
+				<xr:ValueId>6e0513af-9dbd-4657-bb82-6762df7d86e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДопЛистКнигиПокупокДляПередачиВЭлектронномВиде" category="List">
+				<xr:TypeId>9de763bc-aa25-4774-b009-e6c10aa0164d</xr:TypeId>
+				<xr:ValueId>9c02326d-7491-42f2-b998-33fede4683d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДопЛистКнигиПокупокДляПередачиВЭлектронномВиде" category="Manager">
+				<xr:TypeId>7c376a3e-90d8-4b62-8660-c29d1640a98a</xr:TypeId>
+				<xr:ValueId>e90b238a-3f1b-496b-8bc5-e7fb89a1a83d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДопЛистКнигиПокупокДляПередачиВЭлектронномВиде</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

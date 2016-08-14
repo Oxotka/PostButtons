@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="18778f12-a27f-4b00-aace-af396201d5f3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УстановкаЦенНоменклатуры" category="Object">
+				<xr:TypeId>44924d4d-25c3-426a-b55f-8359791dbc68</xr:TypeId>
+				<xr:ValueId>a8a7436e-b166-48b0-a61d-a6bc8d78e15b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УстановкаЦенНоменклатуры" category="Ref">
+				<xr:TypeId>ec9e6140-bca0-46e1-9f80-5c4a69a1254c</xr:TypeId>
+				<xr:ValueId>2be51beb-d622-4ccd-9248-8674026dea43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УстановкаЦенНоменклатуры" category="Selection">
+				<xr:TypeId>6fc44f24-8dfd-40d5-a866-ba5e1dff5f7a</xr:TypeId>
+				<xr:ValueId>27652baf-752b-42bf-af14-14d710b601ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УстановкаЦенНоменклатуры" category="List">
+				<xr:TypeId>6800b1ed-7bbd-4964-baac-48fe15e246bf</xr:TypeId>
+				<xr:ValueId>1d6a93b8-e8f5-4c40-b82b-60a5f1006ddf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УстановкаЦенНоменклатуры" category="Manager">
+				<xr:TypeId>f7c5a2c1-724f-4d88-ab7e-86936ef69510</xr:TypeId>
+				<xr:ValueId>21c1b1c2-99d1-4ccf-bce7-6a6848b01edf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УстановкаЦенНоменклатуры</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8d29516f-2dff-4c7c-a8b8-c01ef626083b">
+				<Properties>
+					<Name>ТипЦен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТипыЦенНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9d49cad2-8002-477a-8821-e78717b788ee">
+				<Properties>
+					<Name>Информация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="57a87738-faf5-4735-bff5-3cbb629fd6a7">
+				<Properties>
+					<Name>НеПроводитьНулевыеЗначения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="024f3ee9-eec1-4e43-b187-19f472af73b2">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="710c8286-0c49-4805-b187-83b3e9ed68ff">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="3d22da11-1a5c-4ec2-ba4c-0f96e0ec1525">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетПроизводстваЗаСмену" category="Object">
+				<xr:TypeId>df31d661-d49a-43d1-85f6-6a3e4237c054</xr:TypeId>
+				<xr:ValueId>08aa36c7-c919-4039-9e92-00c0a318985e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетПроизводстваЗаСмену" category="Ref">
+				<xr:TypeId>7f76c930-09db-4a7a-aab2-51fd6c7a6d08</xr:TypeId>
+				<xr:ValueId>c3484aa1-8295-466a-9860-f10b8204595d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетПроизводстваЗаСмену" category="Selection">
+				<xr:TypeId>c4c71cbd-7024-40af-9e8f-2cabdc758bd7</xr:TypeId>
+				<xr:ValueId>88fead54-58ea-43a7-9814-cd95effeae3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетПроизводстваЗаСмену" category="List">
+				<xr:TypeId>b0939666-8947-4899-bb0f-0ac4d5fd7e88</xr:TypeId>
+				<xr:ValueId>b130e19e-757e-40ae-9db4-0533b4a3e852</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетПроизводстваЗаСмену" category="Manager">
+				<xr:TypeId>6ddfd936-c196-4030-97bd-6acf878e0110</xr:TypeId>
+				<xr:ValueId>f582999f-6fa0-45d4-97d3-e4d4fc546b19</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтчетПроизводстваЗаСмену</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="10784c92-89c6-4a12-b05b-bc0ea98298f3">
+				<Properties>
+					<Name>СчетСписанияНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cce85424-04db-4522-a2c0-2121e1582358">
+				<Properties>
+					<Name>ПодразделениеОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="23371613-135f-401d-a00f-2bab9707b2a2">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="76b1aa3b-7b07-4d89-884c-e48bf229613e">
+				<Properties>
+					<Name>Склад</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="60a0a548-a3b8-4bd5-af89-a5f6a82f8ab6">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1a8978f8-f1e5-43d1-a048-3c313c67be4b">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="25749820-959b-40cd-af26-b48a752c9ab9">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="04c85276-7ce0-4920-910e-e753ec21716a">
+				<Properties>
+					<Name>ДляСписанияНДСиспользоватьСчетИАналитикуУчетаЗатрат</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3e2b9e3f-90c3-4b37-986a-5baaae9cb5f1">
+				<Properties>
+					<Name>СубконтоСписанияНДС1</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоХозрасчетные</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="32938800-fb1d-4192-a755-43c535252712">
+				<Properties>
+					<Name>ПодразделениеЗатрат</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8fa5d7fa-65fa-4ba8-afe1-b3eb3cb04e0d">
+				<Properties>
+					<Name>НДСвСтоимостиТоваров</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДействиеНДСВСтоимостиТоваров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51a6cb8e-177e-43eb-a669-506c4c79f85c">
+				<Properties>
+					<Name>СубконтоСписанияНДС2</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоХозрасчетные</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="54264a31-e2c3-4a84-af1a-a29c3fc7c24b">
+				<Properties>
+					<Name>СубконтоСписанияНДС3</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоХозрасчетные</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9b209a50-6c0d-4ef8-8a8e-9b5e9b326418">
+				<Properties>
+					<Name>СчетЗатрат</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="642d7063-48a2-4b0e-845a-3894189fcf00">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеГрафиковАмортизацииОС" category="Object">
+				<xr:TypeId>cc2fe18f-ffd1-4d4a-9d90-766d752edde0</xr:TypeId>
+				<xr:ValueId>74a7e023-dfb6-401b-9c56-5873709a0c05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеГрафиковАмортизацииОС" category="Ref">
+				<xr:TypeId>7aadfa8b-0c69-4f60-8f38-12d9400a5afd</xr:TypeId>
+				<xr:ValueId>83036b62-9ad0-47dd-9e79-4308c389e376</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеГрафиковАмортизацииОС" category="Selection">
+				<xr:TypeId>885aced3-c3a7-4130-abb0-7dd957b04095</xr:TypeId>
+				<xr:ValueId>92f81f15-d776-4b3c-825b-6fbaf4f12600</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеГрафиковАмортизацииОС" category="List">
+				<xr:TypeId>451fa21a-a830-41f2-8275-3c67282204df</xr:TypeId>
+				<xr:ValueId>c1d9662b-d5b8-42bd-9baf-f9151f87dbab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеГрафиковАмортизацииОС" category="Manager">
+				<xr:TypeId>06df7c51-2452-4228-b45d-7bde26139e49</xr:TypeId>
+				<xr:ValueId>c532fd9f-bf77-473d-ba36-2cdb8ef43a60</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеГрафиковАмортизацииОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="df8fe680-ba99-4c72-8c71-24ca4bb9b4e5">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="89a8a073-e8e4-4161-9dcb-ab60e5209cd0">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5e2817af-fb66-4f9f-93db-2eb56a246fed">
+				<Properties>
+					<Name>СобытиеОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СобытияОС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9fd24c90-b88a-4390-8191-9869ef63e7f2">
+				<Properties>
+					<Name>ГрафикАмортизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГодовыеГрафикиАмортизацииОС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b73b61f1-faea-403b-b71c-a94f4b5cf0c3">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="935a4a43-6c5b-4e24-ac57-b8a68edda947">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="ab5448f3-b190-4c5e-89c6-bbf522274da3">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеГрафиковАмортизацииОС.ОС" category="TabularSection">
+						<xr:TypeId>cbbdaa8c-a4da-4554-9c09-d65dd14f1ed6</xr:TypeId>
+						<xr:ValueId>b6c4dcf2-84b4-44cd-8b4e-ae8eff44e423</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеГрафиковАмортизацииОС.ОС" category="TabularSectionRow">
+						<xr:TypeId>6c9488c0-899f-4063-af35-d14aafbb9b08</xr:TypeId>
+						<xr:ValueId>3434ff02-4b04-4744-9110-19439d9637b5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a6e56fd9-f7e5-4ffd-997d-3720ad83020a">
+						<Properties>
+							<Name>ОсновноеСредство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

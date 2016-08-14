@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="85febeac-893c-4465-8f24-5711ef57df19">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриемНаРаботу" category="Object">
+				<xr:TypeId>245a1c27-1b0d-4429-b1ca-58a1c9466f07</xr:TypeId>
+				<xr:ValueId>2ee339f0-181f-47ca-a552-1074ba87ba8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриемНаРаботу" category="Ref">
+				<xr:TypeId>5a2a2c38-b34d-4b69-b10e-43742c2fae23</xr:TypeId>
+				<xr:ValueId>8b10705d-f153-4393-baa8-293803ead9a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриемНаРаботу" category="Selection">
+				<xr:TypeId>1a891f9c-0fb6-42c5-9a89-91c2209c9f34</xr:TypeId>
+				<xr:ValueId>003250b1-cb7c-4774-b981-5003692e6c4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриемНаРаботу" category="List">
+				<xr:TypeId>c4620232-a123-4042-88c7-67cdb73f057e</xr:TypeId>
+				<xr:ValueId>f546b476-dec3-452b-a142-9e773b5f8d74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриемНаРаботу" category="Manager">
+				<xr:TypeId>8c6893ce-de63-4468-a052-0e7ae93e2ced</xr:TypeId>
+				<xr:ValueId>b42104de-1bc2-481f-84ca-ec51cccf87ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПриемНаРаботу</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2d888aca-9332-4402-a5c8-1ec02a0cab71">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e43110e5-540f-4e5f-bb9d-21c4b87be8b7">
+				<Properties>
+					<Name>ДатаПриема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="50eff95d-0f67-4a8b-a08b-5fdc0ecb265b">
+				<Properties>
+					<Name>ВидЗанятости</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыЗанятости</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1f2d7ba8-3705-45b6-9768-439f7454a145">
+				<Properties>
+					<Name>Должность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44fb4186-bc15-4e99-acd5-7b26b634f591">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d18d565d-5578-444f-98bc-ace71fe8cc12">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c6347838-eec0-4dee-adda-d0d74c551162">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="07cf0a4c-f972-46cd-a936-f0ae52da5406">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

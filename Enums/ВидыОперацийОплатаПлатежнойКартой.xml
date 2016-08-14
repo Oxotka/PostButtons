@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="7d82846e-57b0-4e27-ac79-2415a459f1a4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийОплатаПлатежнойКартой" category="Ref">
+				<xr:TypeId>be06969a-9ca6-4af7-8573-2d1730d5e63c</xr:TypeId>
+				<xr:ValueId>192e0353-e2f6-4fd3-a64c-b3127396e57a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийОплатаПлатежнойКартой" category="Manager">
+				<xr:TypeId>f35b61d4-38e3-49ca-b20a-391c6242667c</xr:TypeId>
+				<xr:ValueId>0a0d160d-4970-48ff-a441-ba0a6d8c0c01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийОплатаПлатежнойКартой" category="List">
+				<xr:TypeId>bf5ecd55-bfb5-4632-88c6-e290e11ab2a7</xr:TypeId>
+				<xr:ValueId>174ed81b-8938-4a9b-92a6-b95a2fdcd34a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийОплатаПлатежнойКартой</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

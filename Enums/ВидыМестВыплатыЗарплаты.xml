@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="39d23687-5f5a-423e-8dcb-d33e60b47bfd">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыМестВыплатыЗарплаты" category="Ref">
+				<xr:TypeId>17285579-d5b4-408d-b776-d1b816187a02</xr:TypeId>
+				<xr:ValueId>30c605d4-67b8-475d-9249-7cf89967df1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыМестВыплатыЗарплаты" category="Manager">
+				<xr:TypeId>0c3e4e66-91ca-4bb8-a9dd-8a527edf4fa0</xr:TypeId>
+				<xr:ValueId>bf5f7fe5-a6a8-4170-b9bb-b2139567a37b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыМестВыплатыЗарплаты" category="List">
+				<xr:TypeId>4ccc39a2-dc81-4d49-a333-7b9c11195c6b</xr:TypeId>
+				<xr:ValueId>dbe03110-0247-4bb4-a6a6-261cda551dc1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыМестВыплатыЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

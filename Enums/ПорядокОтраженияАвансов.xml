@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="93f0d7fb-c08e-4aa2-ae23-fd2925027b1e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокОтраженияАвансов" category="Ref">
+				<xr:TypeId>6ddd9238-7730-4b60-838d-bd255c51d6af</xr:TypeId>
+				<xr:ValueId>8e8cd8ed-ef92-4d86-98ae-75cf8e338d1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокОтраженияАвансов" category="Manager">
+				<xr:TypeId>fdf17a5a-70e5-479b-8513-8d2c633067c9</xr:TypeId>
+				<xr:ValueId>63f8be4e-87b2-4347-969c-9c9223c1ac1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокОтраженияАвансов" category="List">
+				<xr:TypeId>4b57ff37-b81e-4074-92d3-d02d1208bbe3</xr:TypeId>
+				<xr:ValueId>f49385c1-74d6-4d79-990d-646b04f0d454</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокОтраженияАвансов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

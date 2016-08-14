@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<InformationRegister uuid="5791cde4-c77e-4577-9f7c-a3d77bfba471">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтатусыДокументов" category="Record">
+				<xr:TypeId>780e5528-fd1a-4674-af0f-1268cd586e92</xr:TypeId>
+				<xr:ValueId>1a17d40a-1277-4872-a8ec-91402362cd9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтатусыДокументов" category="Manager">
+				<xr:TypeId>c45cf431-17f7-4fc6-a12d-99d87fc878dd</xr:TypeId>
+				<xr:ValueId>37403b8c-9d7e-4a20-8ef0-0e6349325a13</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтатусыДокументов" category="Selection">
+				<xr:TypeId>77438aa9-8434-44e4-ad55-8c3ee0d68dbd</xr:TypeId>
+				<xr:ValueId>14e8ac12-b88e-42e3-b400-3836d2fa411d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтатусыДокументов" category="List">
+				<xr:TypeId>218130a4-d905-4eb9-991a-9c10e7713442</xr:TypeId>
+				<xr:ValueId>d1df0b8c-6545-4689-a238-bad8bb66ad44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусыДокументов" category="RecordSet">
+				<xr:TypeId>27965ada-cb79-4256-b3ab-e9e084c02914</xr:TypeId>
+				<xr:ValueId>dbc4ae1c-e816-4126-8387-e81a02dfc0c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусыДокументов" category="RecordKey">
+				<xr:TypeId>96ebb024-c84d-49ff-9eae-d9ea1c988178</xr:TypeId>
+				<xr:ValueId>aeb9c525-2231-41fa-9996-3cbe655a5345</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусыДокументов" category="RecordManager">
+				<xr:TypeId>6ce4169f-ef09-4bfa-afb3-16ee2ab95fb3</xr:TypeId>
+				<xr:ValueId>68f47697-324d-4f4f-bb25-1608313d5285</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="a05d8653-657a-4a13-aa14-28e54959ff77">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусОплатыСчета</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="0e1f244b-bf62-4039-acc5-667f75f0701a">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7f12c80f-235f-44a6-bb86-12f4842177ff">
+				<Properties>
+					<Name>Документ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СчетНаОплатуПоставщика</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

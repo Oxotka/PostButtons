@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="9d67ce51-e197-4c18-a317-c76c8bc5a95e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаписьКУДиР" category="Object">
+				<xr:TypeId>4bd9f3a6-01c4-470d-80ee-0d6cc512ae2f</xr:TypeId>
+				<xr:ValueId>45b97604-97ab-4118-86b8-cb838eb3a4cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаписьКУДиР" category="Ref">
+				<xr:TypeId>d393251a-3535-4585-9e91-7ae51dd07d3d</xr:TypeId>
+				<xr:ValueId>5e404659-3d44-4f7f-b2b9-e9f602a77bb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаписьКУДиР" category="Selection">
+				<xr:TypeId>ebb13f31-67f0-4212-9465-1fe3404d14f0</xr:TypeId>
+				<xr:ValueId>0e420e24-8c61-4ec7-bf3e-d9369bccc5dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаписьКУДиР" category="List">
+				<xr:TypeId>803e63bc-d39c-4718-a525-27bdb7eed943</xr:TypeId>
+				<xr:ValueId>ba709eff-ea97-405c-ba72-5959e4501d2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаписьКУДиР" category="Manager">
+				<xr:TypeId>2cbf7d7a-d972-45e2-8287-5e33575b7ac7</xr:TypeId>
+				<xr:ValueId>41991b7c-822b-43a6-a713-6105528d7656</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаписьКУДиР</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3611d623-5fbe-45e0-95f1-d7c372c62d16">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="94aed3b5-d258-4f33-9afe-a5197f2c41ae">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

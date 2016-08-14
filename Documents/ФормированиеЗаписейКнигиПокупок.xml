@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="c073ad3c-217f-4162-80cc-0f8aec1b6197">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ФормированиеЗаписейКнигиПокупок" category="Object">
+				<xr:TypeId>be423453-d4f8-4d96-87d2-5be217634892</xr:TypeId>
+				<xr:ValueId>828a68e3-93b6-40c0-9375-ce586de9c789</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ФормированиеЗаписейКнигиПокупок" category="Ref">
+				<xr:TypeId>db3dd557-3fda-4f85-accd-878a71f5e5a6</xr:TypeId>
+				<xr:ValueId>cb9193cd-09b6-4b9c-9315-d21d1e6841c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ФормированиеЗаписейКнигиПокупок" category="Selection">
+				<xr:TypeId>b68e3f3d-fcb7-445b-aa35-9fe2a599ed7c</xr:TypeId>
+				<xr:ValueId>716855d4-d52b-4156-ab67-7fd7a7110682</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ФормированиеЗаписейКнигиПокупок" category="List">
+				<xr:TypeId>7e797767-c0f1-4d2a-beeb-2cf6e9b54e1d</xr:TypeId>
+				<xr:ValueId>af7a4065-276e-4fdc-b886-64c3bba10b9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ФормированиеЗаписейКнигиПокупок" category="Manager">
+				<xr:TypeId>7e288ec0-3630-4a05-9a82-999b331f090a</xr:TypeId>
+				<xr:ValueId>b6fc020c-8dda-4dd5-9d16-02b97286c0c3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФормированиеЗаписейКнигиПокупок</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1b4ab837-96fa-4f6f-a8aa-95c91630054d">
+				<Properties>
+					<Name>ПредъявленНДСКВычету0</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4b09373a-7429-4024-8f61-936d32557521">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="534fa06c-8a2e-4aaf-98d2-87ba74c52a7d">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="357d27dc-52fb-4eb0-b197-271359356e21">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a595dec7-2dea-436a-b6d9-3a263e9bbd27">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

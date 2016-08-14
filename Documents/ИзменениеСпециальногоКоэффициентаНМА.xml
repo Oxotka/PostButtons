@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="2dde09b6-a000-4931-9db8-bc05fc6e6bb5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеСпециальногоКоэффициентаНМА" category="Object">
+				<xr:TypeId>e778fe1f-0e32-4dd0-ae9b-a394fbdf9b8f</xr:TypeId>
+				<xr:ValueId>dfa1b5bb-3e83-4cf1-95cd-b168804efd8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеСпециальногоКоэффициентаНМА" category="Ref">
+				<xr:TypeId>9c3d2bbe-c16f-4997-9e89-150a7fd5bd9b</xr:TypeId>
+				<xr:ValueId>3eeed42f-3d95-4201-a39e-09021e36349c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеСпециальногоКоэффициентаНМА" category="Selection">
+				<xr:TypeId>61b9b57c-2e52-4494-b5e6-a6d0670bd991</xr:TypeId>
+				<xr:ValueId>5ac6c0df-ace7-4f48-89d1-e510909612b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеСпециальногоКоэффициентаНМА" category="List">
+				<xr:TypeId>1a193ca2-7740-4acb-a558-0edd2adc3c66</xr:TypeId>
+				<xr:ValueId>c11be1be-6df8-4212-82a3-17c935b6f8e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеСпециальногоКоэффициентаНМА" category="Manager">
+				<xr:TypeId>9c267301-a2b7-49f9-9eb0-d1af2d185078</xr:TypeId>
+				<xr:ValueId>7ee75da4-7d87-4fa8-bf3e-f285fbe84a20</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеСпециальногоКоэффициентаНМА</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4910bd90-e4a4-4a3c-adba-9f06fc439c69">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e56109a6-4009-410d-9ee6-5dc4c1d16935">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8c71bae0-fe21-408b-bf75-8d226c325bff">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="95a5532c-f956-4aae-8e8d-d1c0b10005ac">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеСпециальногоКоэффициентаНМА.НМА" category="TabularSection">
+						<xr:TypeId>3533fe45-fbaa-482c-8f2b-92aeb5efa32d</xr:TypeId>
+						<xr:ValueId>30a69d6e-2a34-476f-8b1a-c85c907f658c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеСпециальногоКоэффициентаНМА.НМА" category="TabularSectionRow">
+						<xr:TypeId>46cbd2a4-7930-4fc6-81b4-1ae99d8f5e1c</xr:TypeId>
+						<xr:ValueId>87bce735-415f-44af-a5ca-65c6742149f8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>НМА</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="10da7fd9-b86e-4fe5-9cd9-b24c05472deb">
+						<Properties>
+							<Name>СпециальныйКоэффициент</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bd7cd9e7-0a98-438b-87b8-ce4f622463f4">
+						<Properties>
+							<Name>НематериальныйАктив</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.НематериальныеАктивы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

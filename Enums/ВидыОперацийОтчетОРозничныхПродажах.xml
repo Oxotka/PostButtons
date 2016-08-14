@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="114fef75-d7f8-441a-ac2e-2117c2651a1e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийОтчетОРозничныхПродажах" category="Ref">
+				<xr:TypeId>46dcaf13-77e1-4028-ab66-400d4bd98341</xr:TypeId>
+				<xr:ValueId>55365a35-c3d4-45be-a80d-2f797b6ee6ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийОтчетОРозничныхПродажах" category="Manager">
+				<xr:TypeId>092bd8ea-f27a-4d57-a986-6f9e8f486731</xr:TypeId>
+				<xr:ValueId>5852448b-30c5-40bb-bd48-a4828f3ce18a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийОтчетОРозничныхПродажах" category="List">
+				<xr:TypeId>8ed18c0b-3d97-483d-adce-d249e38fba17</xr:TypeId>
+				<xr:ValueId>2ece6608-a409-432b-b657-d52305eac48c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийОтчетОРозничныхПродажах</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

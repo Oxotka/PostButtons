@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="e74c9042-7928-4599-9501-5f1d50398609">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокСписанияНИОКРНУ" category="Ref">
+				<xr:TypeId>162efa5a-1a1b-4992-8e1f-b46b5725dd23</xr:TypeId>
+				<xr:ValueId>c778d362-91b6-4539-9aa5-9d734f35d5f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокСписанияНИОКРНУ" category="Manager">
+				<xr:TypeId>2060fd8a-7a14-4e74-b6fc-bb5a582fef2c</xr:TypeId>
+				<xr:ValueId>6385e2c3-6fa8-42ff-922c-fbbdc250eb52</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокСписанияНИОКРНУ" category="List">
+				<xr:TypeId>56667e3d-af80-48cf-8c2d-53e39f68a3b5</xr:TypeId>
+				<xr:ValueId>fee86c85-9b22-40a0-998c-278805b60e27</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокСписанияНИОКРНУ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

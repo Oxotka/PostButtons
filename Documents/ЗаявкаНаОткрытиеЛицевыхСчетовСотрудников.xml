@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="ffcf5166-1f09-45cf-b15d-06bde8c029ce">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников" category="Object">
+				<xr:TypeId>4e4b1a67-c982-4efe-933a-4fd2607f4fdd</xr:TypeId>
+				<xr:ValueId>ce8a8beb-fd6c-41a3-889e-76d71c73f404</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников" category="Ref">
+				<xr:TypeId>e88e26be-204c-4343-9ea4-fb6e82a2a9eb</xr:TypeId>
+				<xr:ValueId>6b3ce68e-34cb-4d03-b4a1-ba2db95c45ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников" category="Selection">
+				<xr:TypeId>65bb38cc-8e5d-4c8e-bf91-715a19cf6cbe</xr:TypeId>
+				<xr:ValueId>890ed9de-0db4-416f-862a-c346a9a65da6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников" category="List">
+				<xr:TypeId>6d531bc8-905b-4ee7-93c6-4df98d82a96c</xr:TypeId>
+				<xr:ValueId>c2045fef-aee7-4308-9dca-c72bcd0d1bae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников" category="Manager">
+				<xr:TypeId>4acd6614-9464-45af-9ab9-955d7babd3c2</xr:TypeId>
+				<xr:ValueId>1ab6d26c-9f9a-43fe-9ad4-c84803291771</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="24c15364-85c4-42ee-9e7c-bf6bfc0f9460">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеОС" category="Object">
+				<xr:TypeId>1f269ec9-07d6-4074-a68f-a15a2a88a1f5</xr:TypeId>
+				<xr:ValueId>0424546e-1076-4f5b-a875-4843abe2ea71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеОС" category="Ref">
+				<xr:TypeId>b65d9e2b-d5b3-476d-aab1-abe3ddb8e58d</xr:TypeId>
+				<xr:ValueId>90ae3ea1-cbeb-4859-9c62-1d9e284daf0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеОС" category="Selection">
+				<xr:TypeId>e26a0b13-c3bb-4d18-b3fc-e8a6fa30c8fa</xr:TypeId>
+				<xr:ValueId>b1195a9e-b635-497a-88a5-22bca0faa03e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеОС" category="List">
+				<xr:TypeId>b694383b-3678-4fb5-9a18-c55f291cf65c</xr:TypeId>
+				<xr:ValueId>5f14bbe3-7c02-4391-82be-9f8553ac250e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеОС" category="Manager">
+				<xr:TypeId>a8fc25b0-1e40-410f-9f0f-797614ac9d97</xr:TypeId>
+				<xr:ValueId>dbbd2016-c7e6-4f5c-b827-34d584e2eef4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПеремещениеОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8d61e233-dc21-403a-9dd8-e1f446bd5ca2">
+				<Properties>
+					<Name>НачислениеАмортизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4b8f4069-6258-44de-9ce3-3d2d78b99c3d">
+				<Properties>
+					<Name>ПодразделениеОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dbfcbc01-66db-408b-8707-55a8fa6dcb85">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="23a18591-5de9-441d-9e3e-db87bf038e0f">
+				<Properties>
+					<Name>СпособОтраженияРасходовПоАмортизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СпособыОтраженияРасходовПоАмортизации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="41120b2a-09af-4955-93f0-2838adde3716">
+				<Properties>
+					<Name>ПодразделениеПолучатель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5e03f023-b6b3-4428-9f05-25b6fe686c51">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d8802f67-dcd7-4701-840c-66c69366fd9e">
+				<Properties>
+					<Name>СобытиеОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СобытияОС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="740f37d6-f466-45f5-8a17-6c08417ffc7a">
+				<Properties>
+					<Name>МОЛОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3056b6e4-e858-4862-8aa9-7a7be81ec8fe">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cb5c06e4-65ed-4691-be1d-68ce01da2b0a">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6825952a-9671-4892-bf13-b91a071def95">
+				<Properties>
+					<Name>МОЛПолучатель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="93c31305-5526-486a-973e-c8d9d2f7f0fb">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПеремещениеОС.ОС" category="TabularSection">
+						<xr:TypeId>e187ea5b-d4f4-43d3-b570-483659367576</xr:TypeId>
+						<xr:ValueId>0149de56-6d9f-48f9-99a5-70523cfded3f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПеремещениеОС.ОС" category="TabularSectionRow">
+						<xr:TypeId>9a00dd38-049d-4ebb-90a3-409892cce378</xr:TypeId>
+						<xr:ValueId>e77e8f5f-5039-4f26-a90c-f67bf11df1d6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9cc88853-c3b4-468f-8b4b-da0b30444d9b">
+						<Properties>
+							<Name>ОсновноеСредство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

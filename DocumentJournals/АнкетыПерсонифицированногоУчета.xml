@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="1e876f07-3cd7-479c-b0b8-a469d5b25a2b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.АнкетыПерсонифицированногоУчета" category="Selection">
+				<xr:TypeId>b2df3385-2750-4b53-a11f-c5e654287942</xr:TypeId>
+				<xr:ValueId>d6d717d5-ff56-40ae-801e-9ef155c96fa1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.АнкетыПерсонифицированногоУчета" category="List">
+				<xr:TypeId>b515be06-82c2-486b-8f7c-a40717b17583</xr:TypeId>
+				<xr:ValueId>7ce105b5-2588-425b-909c-46ddcf2d0102</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.АнкетыПерсонифицированногоУчета" category="Manager">
+				<xr:TypeId>0b1fda48-c050-4447-8917-a27efec77f3d</xr:TypeId>
+				<xr:ValueId>0e7cc3eb-9cd6-43ea-b523-02302b4f250e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АнкетыПерсонифицированногоУчета</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="2b7aabd7-8f43-45a3-acd6-b1c7aae4ebc1">
+				<Properties>
+					<Name>ПринятоВПФР</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a174a4fb-ba95-46a9-bc72-f0e8546332b8">
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="f76cd389-03dd-470f-84b9-227c6ec8775e">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="69dbf16f-8564-4f0e-b7b9-b63a275aca51">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="bb7affa6-94c7-4765-b2b0-801019f2ccd1">
+				<Properties>
+					<Name>НомерПачки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="3d742c3b-9313-43d1-9fa3-aa1a7bd1b24e">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<InformationRegister uuid="173c5117-3956-4a7b-817e-4e6ec040aa64">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РеквизитыПлатежныхДокументовПеречисленияЗарплаты" category="Record">
+				<xr:TypeId>db75394d-facc-4ea0-a355-e454e9b49a39</xr:TypeId>
+				<xr:ValueId>626f0336-a015-4ff3-aa5c-c12830e1cfcb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РеквизитыПлатежныхДокументовПеречисленияЗарплаты" category="Manager">
+				<xr:TypeId>dc165cbf-9a5e-45ab-9077-2322a0e5c17d</xr:TypeId>
+				<xr:ValueId>5f3b2b12-f0ad-4104-a8e8-41d45c8e2d4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РеквизитыПлатежныхДокументовПеречисленияЗарплаты" category="Selection">
+				<xr:TypeId>c112e465-bf92-479d-8866-5faac7e6ad2e</xr:TypeId>
+				<xr:ValueId>d1abf9c8-ea67-4662-a968-0b4b867ebb16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РеквизитыПлатежныхДокументовПеречисленияЗарплаты" category="List">
+				<xr:TypeId>07ec3fe0-4de9-4cff-bf51-3d201ff31924</xr:TypeId>
+				<xr:ValueId>36cef263-056d-49e2-ba60-896667b51842</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РеквизитыПлатежныхДокументовПеречисленияЗарплаты" category="RecordSet">
+				<xr:TypeId>6f38f860-b700-4126-bb57-ab39e1b067c3</xr:TypeId>
+				<xr:ValueId>5027021b-9f56-44d1-83ab-e3e62f1839bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РеквизитыПлатежныхДокументовПеречисленияЗарплаты" category="RecordKey">
+				<xr:TypeId>fb7baad0-ca76-4563-824b-7aa32ecbeacc</xr:TypeId>
+				<xr:ValueId>6675496c-c323-44da-8cfe-52c1d45751e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РеквизитыПлатежныхДокументовПеречисленияЗарплаты" category="RecordManager">
+				<xr:TypeId>7a94cde0-646f-45a8-87a6-64ddf41a67da</xr:TypeId>
+				<xr:ValueId>013fece7-97e4-4950-87e0-71253b00fda5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РеквизитыПлатежныхДокументовПеречисленияЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="82721cf4-19f1-440a-a22a-71d848c19a41">
+				<Properties>
+					<Name>ЗарплатныйПроект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЗарплатныеПроекты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="7932af5f-a5e4-4af5-aa99-7620a80c514a">
+				<Properties>
+					<Name>ПлатежныйДокумент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПлатежноеПоручение</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

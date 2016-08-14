@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="5fe4f4f6-c1b2-48c2-878e-8cf76ecac535">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеСпособовОтраженияРасходовПоАмортизацииНМА" category="Object">
+				<xr:TypeId>7dd34c9e-1294-4ac7-9fec-488cdbd48819</xr:TypeId>
+				<xr:ValueId>024fccda-d4fc-4036-8259-c96d6740a631</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеСпособовОтраженияРасходовПоАмортизацииНМА" category="Ref">
+				<xr:TypeId>4c142d12-1667-439d-8fa1-5601d1a39e78</xr:TypeId>
+				<xr:ValueId>4df6dd1f-bd54-4f75-a628-b6e49e08da9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеСпособовОтраженияРасходовПоАмортизацииНМА" category="Selection">
+				<xr:TypeId>005a5701-b102-4951-8187-78242eddaf41</xr:TypeId>
+				<xr:ValueId>6221733f-c3fc-4f0a-91b1-2eb4ddb507bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеСпособовОтраженияРасходовПоАмортизацииНМА" category="List">
+				<xr:TypeId>13385742-12f1-42f0-98f5-9725d3b39a5b</xr:TypeId>
+				<xr:ValueId>6d1b0de1-e8fd-4ef1-bb3d-8bb3b90300d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеСпособовОтраженияРасходовПоАмортизацииНМА" category="Manager">
+				<xr:TypeId>c80bb3e3-c54e-4e3b-9a24-9a858326df37</xr:TypeId>
+				<xr:ValueId>d746d6d9-42ae-4bb7-b731-986efc290502</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеСпособовОтраженияРасходовПоАмортизацииНМА</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

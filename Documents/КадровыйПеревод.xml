@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="eb54a256-26a8-4ba4-b081-5f68ed985cd9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КадровыйПеревод" category="Object">
+				<xr:TypeId>3dc94d7a-5dd7-436a-919e-e1890c61ce40</xr:TypeId>
+				<xr:ValueId>cbe685de-1717-4b9a-ab07-15f5e4152cfa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КадровыйПеревод" category="Ref">
+				<xr:TypeId>5f17f66c-e629-494d-b7db-514165dd66ea</xr:TypeId>
+				<xr:ValueId>8ab5734f-edce-4b31-91b9-3333a218e766</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КадровыйПеревод" category="Selection">
+				<xr:TypeId>edae8f73-0008-444e-a78c-4a95ca330e17</xr:TypeId>
+				<xr:ValueId>75ead8b3-9752-4f32-97fd-577a7f4b77ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КадровыйПеревод" category="List">
+				<xr:TypeId>57d89d10-9ac0-4d8a-9e3f-2a15ca6514a5</xr:TypeId>
+				<xr:ValueId>7373a6c7-7608-4c35-a525-d9d6fc1fc165</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КадровыйПеревод" category="Manager">
+				<xr:TypeId>461c615c-3151-476e-8902-87fdb25550bb</xr:TypeId>
+				<xr:ValueId>09edf66c-b6e2-4f23-bc25-19ce52f438be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КадровыйПеревод</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

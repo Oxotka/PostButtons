@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="0ef1755a-a0ce-4598-a7e6-898d2bd5e207">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостояниеЗаявкиНаОткрытиеЛицевогоСчетаСотрудника" category="Ref">
+				<xr:TypeId>b7b92b20-9815-444e-8564-6a40eb3b4567</xr:TypeId>
+				<xr:ValueId>5c4e868a-0544-471a-8e92-891afe991949</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостояниеЗаявкиНаОткрытиеЛицевогоСчетаСотрудника" category="Manager">
+				<xr:TypeId>e8e9d312-2b71-4419-bc37-9a4b32043a8c</xr:TypeId>
+				<xr:ValueId>cfc1f94b-3b2c-44b6-8796-6c7eba9db0aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостояниеЗаявкиНаОткрытиеЛицевогоСчетаСотрудника" category="List">
+				<xr:TypeId>897577fa-6e8e-4bb0-9187-2becf00444fa</xr:TypeId>
+				<xr:ValueId>f2b6dffc-d9fe-4f45-9c7d-d538873fb9da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостояниеЗаявкиНаОткрытиеЛицевогоСчетаСотрудника</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

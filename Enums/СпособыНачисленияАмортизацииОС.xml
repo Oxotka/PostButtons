@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="0127e89b-7e95-462b-9ddc-3ff233ac510f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыНачисленияАмортизацииОС" category="Ref">
+				<xr:TypeId>e30047bd-c297-4f51-87a4-7d55c4ad0a96</xr:TypeId>
+				<xr:ValueId>d0b1d558-826c-4324-b102-25ce050b7dbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыНачисленияАмортизацииОС" category="Manager">
+				<xr:TypeId>cffd3287-701d-41a3-a627-8709acbee968</xr:TypeId>
+				<xr:ValueId>a46b641f-8fef-41cc-80f5-49b35406bf0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыНачисленияАмортизацииОС" category="List">
+				<xr:TypeId>43457d5e-d59d-4cba-8d97-e7a52ef2d7ba</xr:TypeId>
+				<xr:ValueId>d15794d2-b2ae-4109-98b3-cf960de37255</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыНачисленияАмортизацииОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

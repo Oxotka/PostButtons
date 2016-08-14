@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="10ec4821-ddb9-4c4a-b248-183ff349b6b8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусОплатыСчета" category="Ref">
+				<xr:TypeId>676c7511-a7be-41c7-ab95-4b7ef3aaa94f</xr:TypeId>
+				<xr:ValueId>73ea032e-ea7f-4f15-8361-66470bdcc956</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусОплатыСчета" category="Manager">
+				<xr:TypeId>b6cf111b-9cd5-49c9-baf9-537bbefdc61c</xr:TypeId>
+				<xr:ValueId>104b6845-ecde-493a-8866-9c8953d3988b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусОплатыСчета" category="List">
+				<xr:TypeId>68b675e9-e988-47a2-984e-b3671c80ed5f</xr:TypeId>
+				<xr:ValueId>293b4794-8d16-45f9-94ba-6352416ee247</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусОплатыСчета</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b37e3e8f-dce5-443f-90b4-f138011d2ac6">
+				<Properties>
+					<Name>НеОплачен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

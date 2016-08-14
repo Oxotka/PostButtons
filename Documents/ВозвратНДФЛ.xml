@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="317e1d76-e3bd-4804-9162-112914207adf">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратНДФЛ" category="Object">
+				<xr:TypeId>9104a009-18fc-4bb1-bb4d-cb5914bdc411</xr:TypeId>
+				<xr:ValueId>94b76fbc-2366-4342-b134-13d87d2f444a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратНДФЛ" category="Ref">
+				<xr:TypeId>e9a2b82f-78bf-4685-a520-5efe1b1a184a</xr:TypeId>
+				<xr:ValueId>5f6cd11e-8f6e-4dd1-831f-da3be4d9b5c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратНДФЛ" category="Selection">
+				<xr:TypeId>b63e5d1f-7bcb-4229-b469-29a5d1c75183</xr:TypeId>
+				<xr:ValueId>c1bb2133-50b0-442a-bbd5-3fd21f9b30a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратНДФЛ" category="List">
+				<xr:TypeId>62deb378-9c00-4631-a941-571ac8b18bd8</xr:TypeId>
+				<xr:ValueId>7a387ec8-ce0e-4d4d-be10-192d3a042791</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратНДФЛ" category="Manager">
+				<xr:TypeId>de9bc592-7983-4ef6-9763-5510a004e0ad</xr:TypeId>
+				<xr:ValueId>08977b67-a9aa-4552-9518-554f6c23260a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВозвратНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

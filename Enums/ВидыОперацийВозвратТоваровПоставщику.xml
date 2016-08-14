@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="aed63fc0-3977-4470-aea7-cf567756731c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийВозвратТоваровПоставщику" category="Ref">
+				<xr:TypeId>1fee016e-55d8-495e-90eb-feaf41c6c356</xr:TypeId>
+				<xr:ValueId>81245d3c-b301-4cb0-911d-915eeda69e6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийВозвратТоваровПоставщику" category="Manager">
+				<xr:TypeId>065588d0-4cf1-46bf-a1e2-06d60a935e3b</xr:TypeId>
+				<xr:ValueId>56e66ad4-789d-4844-a4d3-24ffc914f840</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийВозвратТоваровПоставщику" category="List">
+				<xr:TypeId>5c549814-3302-4e84-ad11-1900e888655d</xr:TypeId>
+				<xr:ValueId>d89cfb73-d47b-4072-adb1-50bdca601c25</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийВозвратТоваровПоставщику</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="ff1ba575-8025-4068-8d13-c6038d9f9587">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АвансовыйПлатежИностранцаПоНДФЛ" category="Object">
+				<xr:TypeId>5141d5d4-ec16-4857-81dd-0dcf6a6d6c75</xr:TypeId>
+				<xr:ValueId>cf40716e-5e7d-4d7b-8494-ec2bd5ca4fed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АвансовыйПлатежИностранцаПоНДФЛ" category="Ref">
+				<xr:TypeId>eefca55a-3348-4c89-8a38-ba61a63dc62a</xr:TypeId>
+				<xr:ValueId>ea756246-20ad-44cc-8153-c773ccaed146</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АвансовыйПлатежИностранцаПоНДФЛ" category="Selection">
+				<xr:TypeId>e177cda7-31c9-421f-9f07-1ca503fa48b7</xr:TypeId>
+				<xr:ValueId>beada180-d333-4800-9f6d-8ce4983dfbaa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АвансовыйПлатежИностранцаПоНДФЛ" category="List">
+				<xr:TypeId>f267af18-447e-431d-a8a3-19f6089d1b2a</xr:TypeId>
+				<xr:ValueId>e287a1a4-f1cd-417f-a1bb-293e892b1cc0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АвансовыйПлатежИностранцаПоНДФЛ" category="Manager">
+				<xr:TypeId>0d5c7e5d-8788-46c9-bda2-a00392c1d4de</xr:TypeId>
+				<xr:ValueId>31e6cc82-fcb1-49a9-8db1-c3322a825fbd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АвансовыйПлатежИностранцаПоНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2bb367ba-a17a-4d6c-8ad3-2fdb6fdba146">
+				<Properties>
+					<Name>НалоговыйПериод</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2626d300-9622-46f5-bf93-accc045993c2">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="88e7498a-cd67-4930-99c3-9be52e07dcf7">
+				<Properties>
+					<Name>ДатаОперации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="078f8c48-bcba-4895-8295-93ac339e26ad">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2b00d32d-3e81-4a32-9a54-8d35879094e0">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a9194bec-fbec-49a9-ab40-501842c92943">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

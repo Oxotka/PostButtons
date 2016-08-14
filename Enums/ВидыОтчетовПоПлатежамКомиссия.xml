@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="5c8f9bdd-6684-45c0-969f-284807f2dab7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОтчетовПоПлатежамКомиссия" category="Ref">
+				<xr:TypeId>4d86a31f-4513-4bfd-8c82-e8db49ee9396</xr:TypeId>
+				<xr:ValueId>b54d5781-e25d-43c5-9801-7a60cc13cf32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОтчетовПоПлатежамКомиссия" category="Manager">
+				<xr:TypeId>aaec0c7a-1b84-4056-b379-cb10c7bb1cd9</xr:TypeId>
+				<xr:ValueId>74af5ba7-b967-4ea0-b9bb-40d174f1f3ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОтчетовПоПлатежамКомиссия" category="List">
+				<xr:TypeId>dc01a0f1-84f8-4502-b39e-a7a952803ee2</xr:TypeId>
+				<xr:ValueId>b6c8783f-1642-4d8e-a50d-e2da818f742b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОтчетовПоПлатежамКомиссия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

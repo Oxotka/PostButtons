@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="7cd4f3e3-9bc2-4b1d-b262-a77eac10121f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ПараметрыАмортизацииОС" category="Selection">
+				<xr:TypeId>a117e475-d05b-4505-b81c-0b9addb78f90</xr:TypeId>
+				<xr:ValueId>99e26f1c-bfcc-4c16-a8c6-6a959e12abe7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ПараметрыАмортизацииОС" category="List">
+				<xr:TypeId>750c5276-d1ec-4911-b1c5-1672025ed39f</xr:TypeId>
+				<xr:ValueId>b8c8909f-e0f9-4e1f-89e7-f22b520dc799</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ПараметрыАмортизацииОС" category="Manager">
+				<xr:TypeId>f8adc7b8-f202-423e-a0a5-2bd94cffea2f</xr:TypeId>
+				<xr:ValueId>02e733c8-b7d8-45e5-b025-b8811e0156d9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПараметрыАмортизацииОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="07ed7e37-9435-405f-b9a5-0178c4466f12">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="ebb7bc28-95e4-44c2-99dc-559db2b3ee58">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="55ed6aa5-8c14-4002-8a32-038540091d8d">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="9319f65a-fdaa-4add-b94e-cf70160c03d1">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

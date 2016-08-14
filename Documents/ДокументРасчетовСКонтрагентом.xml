@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="48cc5c13-8c9d-45f6-898c-786402fdc2ad">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДокументРасчетовСКонтрагентом" category="Object">
+				<xr:TypeId>4e2cd24d-bec4-4e13-b6ac-e2ff2d237e86</xr:TypeId>
+				<xr:ValueId>d354a039-ad74-44ae-b2ae-1a5d28e9a9d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДокументРасчетовСКонтрагентом" category="Ref">
+				<xr:TypeId>fc98571d-b8cc-4443-ad0c-b464e4f69885</xr:TypeId>
+				<xr:ValueId>3d54b9e4-3e9f-474e-ae9a-be0cce6e693b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДокументРасчетовСКонтрагентом" category="Selection">
+				<xr:TypeId>e3a9ab25-d7c9-41ba-92b0-8cdc7e055d67</xr:TypeId>
+				<xr:ValueId>05e2db51-40eb-4b28-9aa1-5c76f863a854</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДокументРасчетовСКонтрагентом" category="List">
+				<xr:TypeId>2c31082c-6755-4f46-9d46-8d8d2f46f6ed</xr:TypeId>
+				<xr:ValueId>ad031b23-eb8b-4fee-a56d-b63a975812d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДокументРасчетовСКонтрагентом" category="Manager">
+				<xr:TypeId>502136b1-3816-411c-82fe-c49d1a7c92a0</xr:TypeId>
+				<xr:ValueId>ec025e16-1dbd-4591-8ffd-f5b747c2beae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДокументРасчетовСКонтрагентом</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2db574f5-73f9-4098-a13d-d216ae106206">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e5168a85-9720-466b-bef3-394d7e29cd2c">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a1e97e57-5c24-4059-9dcc-26d23ab78f72">
+				<Properties>
+					<Name>ДоговорКонтрагента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="61013b27-1601-46be-be2c-1295e9fc9113">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийПринятияКУчетуОсновныхСредств" category="Ref">
+				<xr:TypeId>55fdc47c-3401-4aa8-a73a-7adb0a8eb8fb</xr:TypeId>
+				<xr:ValueId>b61c1550-773c-46b7-88f5-1bf015b897e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийПринятияКУчетуОсновныхСредств" category="Manager">
+				<xr:TypeId>09a8ca7a-4c20-4da7-84d3-be60764fc92c</xr:TypeId>
+				<xr:ValueId>18bef4f5-ec9e-4a37-a053-839f6552babe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийПринятияКУчетуОсновныхСредств" category="List">
+				<xr:TypeId>194d41fd-bcc7-4f85-9c6d-67a19e305fd4</xr:TypeId>
+				<xr:ValueId>9ff46a12-7276-4086-a10a-965502a83ba4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийПринятияКУчетуОсновныхСредств</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1cd34bac-8b9b-4fec-ab58-76ceea762966">
+				<Properties>
+					<Name>Оборудование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0c8b080d-c40d-4ba9-a676-78b85ceacf5c">
+				<Properties>
+					<Name>ОбъектыСтроительства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

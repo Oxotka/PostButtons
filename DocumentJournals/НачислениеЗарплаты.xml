@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="c63cbcf1-6529-4dc7-b05a-dd16dcdb631b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.НачислениеЗарплаты" category="Selection">
+				<xr:TypeId>22dee3e9-3be2-4c3d-91f2-d764507d04c8</xr:TypeId>
+				<xr:ValueId>e14c623d-635a-4cbb-92c5-055946b41246</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.НачислениеЗарплаты" category="List">
+				<xr:TypeId>8efe0065-3e3f-4879-b1b3-ffbea02fb5da</xr:TypeId>
+				<xr:ValueId>a926cda8-2a67-40a8-a458-cbb05c8dd857</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.НачислениеЗарплаты" category="Manager">
+				<xr:TypeId>74c5064d-7f5e-4eb8-9f1f-866e9c1e38bc</xr:TypeId>
+				<xr:ValueId>dfff1899-8d63-4ad0-a0ee-d17de7ba2b27</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НачислениеЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="bddbbefc-3ac8-46a5-97d7-8c6fd6e83fd9">
+				<Properties>
+					<Name>Удержано</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="b1cbe78d-2718-4590-9822-d0b80e7a32fc">
+				<Properties>
+					<Name>Начислено</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="c349307b-5f9c-4850-9f0c-357d0b22edd0">
+				<Properties>
+					<Name>Месяц</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="6412fdd8-7d38-4257-b9f4-6de450c49f62">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="f03d87d5-2204-4363-9d36-115303e02409">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="98132e65-0174-4b2a-ab4a-897094020e72">
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="131fbc21-34de-48cb-a363-b6d3bcf57b6b">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

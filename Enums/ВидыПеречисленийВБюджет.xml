@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="74d5e27f-1c20-45f3-a1e5-3dd2b3c7fd89">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыПеречисленийВБюджет" category="Ref">
+				<xr:TypeId>6f7148d2-0c8d-4f4d-ac96-764d3245895c</xr:TypeId>
+				<xr:ValueId>029b63c2-2b66-45ff-9022-7e27aad7118d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыПеречисленийВБюджет" category="Manager">
+				<xr:TypeId>37538e23-11f6-48c5-9f6a-618fdda860bc</xr:TypeId>
+				<xr:ValueId>bf30c85a-7d41-4c8a-9f53-f72eac35cf11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыПеречисленийВБюджет" category="List">
+				<xr:TypeId>0981326b-05df-4369-b7e8-5c9a727e579c</xr:TypeId>
+				<xr:ValueId>96a9deeb-91fc-4af3-8919-4eae43a64e1e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыПеречисленийВБюджет</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

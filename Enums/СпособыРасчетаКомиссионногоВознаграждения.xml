@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="20fc17c0-cea1-4213-ac59-02a5f8b51f0b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыРасчетаКомиссионногоВознаграждения" category="Ref">
+				<xr:TypeId>0aacbb14-af35-4104-bea5-146105a21e61</xr:TypeId>
+				<xr:ValueId>bb8ecdd2-59b3-47d5-a193-a13e78f1982c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыРасчетаКомиссионногоВознаграждения" category="Manager">
+				<xr:TypeId>b1f42b9f-e2a6-42eb-b99b-8ec0b35d3ff3</xr:TypeId>
+				<xr:ValueId>556ad228-0644-4468-86d9-2b910a61f94a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыРасчетаКомиссионногоВознаграждения" category="List">
+				<xr:TypeId>adcb983c-0ba9-4f4b-88cf-60624c9a4129</xr:TypeId>
+				<xr:ValueId>b8bd1926-aee6-4a8f-9e7b-1512889d9bab</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыРасчетаКомиссионногоВознаграждения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

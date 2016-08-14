@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<InformationRegister uuid="785366c9-0b04-4b38-8668-fc1acd75430a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияЭД" category="Record">
+				<xr:TypeId>d79ad52c-378f-49a5-8fc0-5f050904c68d</xr:TypeId>
+				<xr:ValueId>bf047ff4-1be0-41e4-88b6-1e3504d07dc8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияЭД" category="Manager">
+				<xr:TypeId>c5597c2d-dc54-4583-84dc-335079676bb5</xr:TypeId>
+				<xr:ValueId>baca4211-3f5f-43f6-b45f-06ada645698f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияЭД" category="Selection">
+				<xr:TypeId>629a89a3-4404-4715-98cc-4f04cda7c85e</xr:TypeId>
+				<xr:ValueId>85e33f65-c131-4268-81c0-20bd5ecb21da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияЭД" category="List">
+				<xr:TypeId>b3430460-1a6e-4182-8eb5-f5f42e533f21</xr:TypeId>
+				<xr:ValueId>c7991b3d-d0ab-429c-893d-08b2725e2d26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияЭД" category="RecordSet">
+				<xr:TypeId>b2f74947-349c-489d-887c-c4b632429f5d</xr:TypeId>
+				<xr:ValueId>d5f27aa9-be25-4d4a-b191-f6dd0f026dec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияЭД" category="RecordKey">
+				<xr:TypeId>0d37d99b-fe05-4562-9e16-706fe0208117</xr:TypeId>
+				<xr:ValueId>7e0c0da0-8875-4ddb-92e5-ef2d63bbae47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияЭД" category="RecordManager">
+				<xr:TypeId>c5858676-85a6-4aa5-92cb-8678c3148ec5</xr:TypeId>
+				<xr:ValueId>402c4e36-b0ad-49c4-a415-dc0b7e6de5ef</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияЭД</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="e71fe94a-012c-4cfe-b1dd-aa6881bef24b">
+				<Properties>
+					<Name>СостояниеВерсииЭД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияВерсийЭД</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="049677f7-8760-4164-8b58-34262052ed71">
+				<Properties>
+					<Name>СсылкаНаОбъект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.КорректировкаПоступления</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

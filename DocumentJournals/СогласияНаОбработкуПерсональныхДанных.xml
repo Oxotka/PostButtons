@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="8387a7fe-ccd5-4fbe-9164-888f1c098e59">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.СогласияНаОбработкуПерсональныхДанных" category="Selection">
+				<xr:TypeId>7d3477ba-094c-4c72-807b-2cf481f23963</xr:TypeId>
+				<xr:ValueId>131888eb-fad2-407a-8b12-b9db4804e39b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.СогласияНаОбработкуПерсональныхДанных" category="List">
+				<xr:TypeId>82ce3663-3b1a-404e-852c-f885db767c75</xr:TypeId>
+				<xr:ValueId>5c67ba89-c866-442a-8ebc-9b5ba1ad866a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.СогласияНаОбработкуПерсональныхДанных" category="Manager">
+				<xr:TypeId>cbc79454-9e5b-4ad2-9de1-c54156e60359</xr:TypeId>
+				<xr:ValueId>d26ea65c-e8a9-45c7-aa47-d570453b9ea6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СогласияНаОбработкуПерсональныхДанных</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="6994ffee-9fd0-4333-a95b-45fb1952ddcc">
+				<Properties>
+					<Name>ДатаРегистрации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="407c0bfd-8d8b-48b6-99af-d8eab7679cf0">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a569b0b3-517f-4861-bd4a-488770f4b17e">
+				<Properties>
+					<Name>ОтветственныйЗаОбработкуПерсональныхДанных</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a804a733-b751-4716-ab55-9e75978b403c">
+				<Properties>
+					<Name>СрокДействия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="5f133d95-ae53-4dda-b766-1f3b9aeeaafe">
+				<Properties>
+					<Name>Субъект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="6207087e-acf8-4f14-8c0b-ca089ffde82e">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="eebb6f9e-3c7e-4748-9b73-3ac89d8de9f3">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

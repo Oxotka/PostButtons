@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="610f2a6f-33ba-469b-b5e6-9bfb8f6c6134">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ДенежныеДокументы" category="Selection">
+				<xr:TypeId>4a8953e0-b4ea-4e2d-b974-acc5baafaf17</xr:TypeId>
+				<xr:ValueId>dfc47879-d02f-4017-9d51-e60f7ab1da92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ДенежныеДокументы" category="List">
+				<xr:TypeId>ebff55c1-4228-4e0b-8b9b-0376162e46b4</xr:TypeId>
+				<xr:ValueId>71f91323-0744-4c84-b9c7-15856fee6b37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ДенежныеДокументы" category="Manager">
+				<xr:TypeId>9fe09552-ade1-45c5-8189-334d3ba9e122</xr:TypeId>
+				<xr:ValueId>96ee716b-c016-4e78-a998-ed6c9774ae88</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДенежныеДокументы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="8adce09e-91c4-4fd2-9eef-554886ed6156">
+				<Properties>
+					<Name>Поступление</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="ae9de58f-2416-42ca-91b7-7e08de369936">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="223c1f30-1e4c-4009-816e-337a1b187342">
+				<Properties>
+					<Name>ПодразделениеОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="9f851073-61bd-44c6-b9e6-51e1cbe3024d">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="dd7a9e4a-192f-4084-a1ce-3613093f1b2e">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="dce29fe3-71f8-4fa8-b4d8-60a7bf70b06a">
+				<Properties>
+					<Name>ВидОперации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="37bfab68-656d-44e4-9339-ddcd9ac75a11">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="84b18287-c32a-4aba-85f6-1bfde8b6ce6b">
+				<Properties>
+					<Name>Выдача</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="c745377d-c057-4685-b00c-1f581ebbad9a">
+				<Properties>
+					<Name>Валюта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="1062f058-8954-41c6-8ebd-387e26452856">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

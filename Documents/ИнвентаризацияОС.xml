@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="2b877dc6-73a0-4acd-9296-0e90db08f2af">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИнвентаризацияОС" category="Object">
+				<xr:TypeId>a9d35aed-5ffb-4c12-8b28-c65d4e4115c1</xr:TypeId>
+				<xr:ValueId>d412392e-0f6b-4795-9380-cc7425b79b12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИнвентаризацияОС" category="Ref">
+				<xr:TypeId>3789e81a-c0ab-47d0-9ad0-99970df0acb2</xr:TypeId>
+				<xr:ValueId>0fe3049d-adfc-4aa2-bde3-fee159146ef8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИнвентаризацияОС" category="Selection">
+				<xr:TypeId>f5b37fcf-2a8b-4f3d-8114-de78a867c986</xr:TypeId>
+				<xr:ValueId>758e2a1e-bc14-442a-9a70-b8ba7193fd21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИнвентаризацияОС" category="List">
+				<xr:TypeId>85632298-175e-4987-be20-c92cab242594</xr:TypeId>
+				<xr:ValueId>74699aaa-6925-47c2-8139-55d9ae5a5278</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИнвентаризацияОС" category="Manager">
+				<xr:TypeId>042697be-85a3-4494-bda2-d6ffe79f0158</xr:TypeId>
+				<xr:ValueId>e3a15efc-fba9-486f-98e8-82643a0bbbf5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИнвентаризацияОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b432eb87-85ab-4822-a7fe-3cf6c8b3e166">
+				<Properties>
+					<Name>ДокументОснованиеДата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="914ea091-d714-4405-8f1e-4096280ee1f4">
+				<Properties>
+					<Name>ПодразделениеОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bc89e5f6-a979-417c-9dcc-8e04c997eb00">
+				<Properties>
+					<Name>ДокументОснованиеВид</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bd4f6802-c750-48ed-9f1c-2d3ff5cfdfd3">
+				<Properties>
+					<Name>ДатаНачалаИнвентаризации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a73add41-ce04-4ca1-8cf8-5eb3ba862273">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="47cbda4a-9b20-47c5-bcfb-dc9869333d07">
+				<Properties>
+					<Name>ПричинаПроведенияИнвентаризации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2f497dec-01fc-4b98-8b10-634f38a69e6e">
+				<Properties>
+					<Name>ДокументОснованиеНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="545c7144-def2-475f-97ef-56ff1634c280">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d22d4e7c-c3fc-4bf0-81c2-3d734b360476">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2a46b609-6f7d-4e65-a104-4cc5cbc79892">
+				<Properties>
+					<Name>ДатаОкончанияИнвентаризации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9e710a99-37dc-4141-88ab-be2c7f69ff9a">
+				<Properties>
+					<Name>ОтветственноеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="8a60ce24-8c00-4123-baa1-985aaabeba23">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИнвентаризацияОС.ОС" category="TabularSection">
+						<xr:TypeId>664e4ef5-ff15-4285-8762-8dce477937ab</xr:TypeId>
+						<xr:ValueId>3ee7b3bd-4cd9-49ef-b3bc-bc73cb49484c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИнвентаризацияОС.ОС" category="TabularSectionRow">
+						<xr:TypeId>3a36d817-4c69-4ea8-938a-62f1fa9163b8</xr:TypeId>
+						<xr:ValueId>f7b2417a-781e-466c-9c3f-046e98ed6915</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3ec868a9-3a14-4d6b-b8db-742c31d52e7d">
+						<Properties>
+							<Name>ОсновноеСредство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9f548793-bc17-4da7-9deb-92c053aa5b99">
+						<Properties>
+							<Name>НаличиеПоДаннымУчета</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="83df9c7f-8ee8-4b7c-a571-31b4bdd6f357">
+						<Properties>
+							<Name>СтоимостьПоДаннымУчета</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="89a917b2-9031-433a-9241-f22ce5255537">
+						<Properties>
+							<Name>СтоимостьПоРезультатамИнвентаризации</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="09dadf09-9bba-4dc0-adb3-e071b44f43dd">
+						<Properties>
+							<Name>СтоимостьФактическая</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2ed1d3f5-5dd8-4cc8-bc7c-339ff2449fb9">
+						<Properties>
+							<Name>НаличиеФактическое</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="6a5e09c6-3f4d-4825-8ef6-8ea05f5c62c1">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИнвентаризацияОС.ИнвентаризационнаяКомиссия" category="TabularSection">
+						<xr:TypeId>ccc52ec1-72ad-4c19-a751-bd7ba6c48ea8</xr:TypeId>
+						<xr:ValueId>c774a6b8-a92f-494e-aaad-a982163ff35a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИнвентаризацияОС.ИнвентаризационнаяКомиссия" category="TabularSectionRow">
+						<xr:TypeId>e6c1adee-248f-4b91-8134-0063488ed79f</xr:TypeId>
+						<xr:ValueId>3d1dea6b-fc0e-4b2f-b821-c375db7c7893</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ИнвентаризационнаяКомиссия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="09386432-e9ad-4fa2-b436-8fb407d90d8a">
+						<Properties>
+							<Name>ФизЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="944fabd6-05e0-41ae-97e5-c923f743363b">
+						<Properties>
+							<Name>Председатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

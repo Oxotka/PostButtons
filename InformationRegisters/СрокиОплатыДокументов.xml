@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<InformationRegister uuid="3ed195f9-7cea-4deb-b65a-debbdd9f7bad">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СрокиОплатыДокументов" category="Record">
+				<xr:TypeId>bdf4c63b-17cd-482e-870f-98a25e598711</xr:TypeId>
+				<xr:ValueId>44d6df8c-a39a-4032-a38c-30b7427f1c33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СрокиОплатыДокументов" category="Manager">
+				<xr:TypeId>1a8e54c1-0ac5-4287-b202-0690a9bd4160</xr:TypeId>
+				<xr:ValueId>00364040-2edc-41c5-985b-7d884fb17fd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СрокиОплатыДокументов" category="Selection">
+				<xr:TypeId>725ce7c4-ee0d-44f1-9995-865e56172f91</xr:TypeId>
+				<xr:ValueId>a9d8bbfd-8e62-478e-a89a-ca0b57b7d72a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СрокиОплатыДокументов" category="List">
+				<xr:TypeId>69817fba-fcef-4731-b2f5-e1f76ba719c2</xr:TypeId>
+				<xr:ValueId>c9cb179a-1976-4b34-8507-f23e61eb19a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СрокиОплатыДокументов" category="RecordSet">
+				<xr:TypeId>7e80ce8a-8f68-4ca4-8753-57b0eeb18f45</xr:TypeId>
+				<xr:ValueId>c53a5426-36a5-4668-b090-0c78efbe6ada</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СрокиОплатыДокументов" category="RecordKey">
+				<xr:TypeId>63de7220-e45e-4461-8b30-db9dd62f90e9</xr:TypeId>
+				<xr:ValueId>fcbc4f4f-fcf4-41e8-8927-45d6d0c56635</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СрокиОплатыДокументов" category="RecordManager">
+				<xr:TypeId>8bc1bf50-cd57-4792-8c05-10b66844c7dc</xr:TypeId>
+				<xr:ValueId>07025bbb-6a06-4281-8bee-e73710885883</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СрокиОплатыДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="e417e763-5522-49f1-84de-0752e779e666">
+				<Properties>
+					<Name>СрокОплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="7a19c937-a843-4898-b249-015ea3293351">
+				<Properties>
+					<Name>Документ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПередачаОС</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="85744a36-8ba3-4602-b266-6a2bbc27fdba">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

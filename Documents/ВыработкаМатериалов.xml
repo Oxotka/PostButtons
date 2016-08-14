@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="0867144b-e06e-4dee-926d-5f8b246cd99a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыработкаМатериалов" category="Object">
+				<xr:TypeId>321da56f-e37e-42df-aabc-0cfcf9e5e50f</xr:TypeId>
+				<xr:ValueId>ad5bb86c-b0c1-410c-b0e2-d00bad01bcb2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыработкаМатериалов" category="Ref">
+				<xr:TypeId>5f901a64-0e53-490d-8778-b6895f02ce0d</xr:TypeId>
+				<xr:ValueId>d3280741-f19e-4169-8d77-acbf4b6b4859</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыработкаМатериалов" category="Selection">
+				<xr:TypeId>41ad16a9-8382-494f-bb7a-4691365f631e</xr:TypeId>
+				<xr:ValueId>709f101d-5f3c-4782-b520-11fb49790efe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыработкаМатериалов" category="List">
+				<xr:TypeId>a5fd288e-9777-481e-8444-7610074ef95e</xr:TypeId>
+				<xr:ValueId>34bbbfd1-8a9e-4cac-a57d-a4c706d5f6a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыработкаМатериалов" category="Manager">
+				<xr:TypeId>8b73ff6c-ddd0-45c5-a97e-dc1c6ab326c7</xr:TypeId>
+				<xr:ValueId>589cdad3-2200-4fe9-8ed5-f9a5a5523eb6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыработкаМатериалов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a888b934-7722-4c23-a246-991bb8a4dfc1">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c515e75c-5c65-41a6-b7f0-29c534fb2185">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51e83760-7b13-4d64-97f3-ede9060365aa">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

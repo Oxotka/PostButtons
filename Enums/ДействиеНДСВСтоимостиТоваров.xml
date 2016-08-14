@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="b705bf53-df22-4d89-9b69-f9b4b652e84b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДействиеНДСВСтоимостиТоваров" category="Ref">
+				<xr:TypeId>3b783627-911b-451d-8db8-15c93d732c50</xr:TypeId>
+				<xr:ValueId>4bc557b8-6322-4174-8184-410c698ada5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДействиеНДСВСтоимостиТоваров" category="Manager">
+				<xr:TypeId>1e707ae9-9469-4fcf-a2c1-1f1d51768068</xr:TypeId>
+				<xr:ValueId>6cfef142-db20-4e72-85ad-71c480bb507d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДействиеНДСВСтоимостиТоваров" category="List">
+				<xr:TypeId>fa4af828-d534-4968-8332-7c05f93917f4</xr:TypeId>
+				<xr:ValueId>cef8fec8-c257-44d8-b194-2efcadb241b8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДействиеНДСВСтоимостиТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

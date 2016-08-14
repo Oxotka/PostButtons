@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="51bc9774-d287-4fe7-b743-3307c89ae6cc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников" category="Object">
+				<xr:TypeId>27366700-224c-45ad-953d-2bccf1a40664</xr:TypeId>
+				<xr:ValueId>93604e44-546e-4a57-a80b-0315dca0aac7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников" category="Ref">
+				<xr:TypeId>a29d1f03-5ab3-4f1b-9834-c109632a3241</xr:TypeId>
+				<xr:ValueId>60a9bbb1-2167-4f7f-b139-96470b7ab91f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников" category="Selection">
+				<xr:TypeId>e1550f6c-be45-4eed-8776-ccbdb16fbba4</xr:TypeId>
+				<xr:ValueId>2c612562-7273-4097-9a65-f6fe15f41c0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников" category="List">
+				<xr:TypeId>9e0e09af-587f-4f5c-9e64-d6abe999d7cf</xr:TypeId>
+				<xr:ValueId>fc73a712-9b3c-4f74-b46d-c1a1383d21aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников" category="Manager">
+				<xr:TypeId>df23b678-4047-4a84-a0b0-410362e7dcac</xr:TypeId>
+				<xr:ValueId>7982e578-e7d8-4967-bf1a-e87daa110de7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

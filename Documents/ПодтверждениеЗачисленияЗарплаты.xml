@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="7874cd43-8fec-43ee-9749-26c962bcd24c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПодтверждениеЗачисленияЗарплаты" category="Object">
+				<xr:TypeId>c965bbb9-8c54-43c7-b2a0-3c5e7e19554e</xr:TypeId>
+				<xr:ValueId>a323397c-b63a-4fc9-b3de-801e80f8de70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПодтверждениеЗачисленияЗарплаты" category="Ref">
+				<xr:TypeId>093dfb2e-70a1-4bd1-a467-9aea2f59dda6</xr:TypeId>
+				<xr:ValueId>087a2631-3b02-4e11-8880-9fcbd28913d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПодтверждениеЗачисленияЗарплаты" category="Selection">
+				<xr:TypeId>3303e775-b33d-413b-bfd5-ff96cc822e58</xr:TypeId>
+				<xr:ValueId>4ba81f52-71cd-4162-a701-5f555a919a15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПодтверждениеЗачисленияЗарплаты" category="List">
+				<xr:TypeId>d75c5567-02fa-4d49-92a3-7c846528107c</xr:TypeId>
+				<xr:ValueId>0b721e63-12bc-4e5b-b8b8-52dcae932dd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПодтверждениеЗачисленияЗарплаты" category="Manager">
+				<xr:TypeId>e2fdace5-78fc-431f-aefc-ab8b7dde72a2</xr:TypeId>
+				<xr:ValueId>3963c767-faa8-4ee4-babc-7deb8622696e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПодтверждениеЗачисленияЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9dcd4d62-286f-400e-9afb-c507b1e682a3">
+				<Properties>
+					<Name>ПервичныйДокумент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПлатежноеПоручение</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

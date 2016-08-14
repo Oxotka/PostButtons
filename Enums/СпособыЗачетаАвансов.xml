@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="1a3d5847-dacb-4030-a2f1-bafc5958e210">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыЗачетаАвансов" category="Ref">
+				<xr:TypeId>0a12bac4-8f19-4e36-b4cd-16cebe83c930</xr:TypeId>
+				<xr:ValueId>9a7fcb17-fc35-4390-9869-dde31bc47ffc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыЗачетаАвансов" category="Manager">
+				<xr:TypeId>5990d2c5-4355-43c3-9d53-f44220ed2720</xr:TypeId>
+				<xr:ValueId>43a5efbc-afbf-4a5f-9f67-5d1999638a3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыЗачетаАвансов" category="List">
+				<xr:TypeId>61535dd1-51ee-4119-9bc4-972cd3c7775e</xr:TypeId>
+				<xr:ValueId>dfa231a3-2491-43ca-aca9-01aec7b8fe3c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыЗачетаАвансов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

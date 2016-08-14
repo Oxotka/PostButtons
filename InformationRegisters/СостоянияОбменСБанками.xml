@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<InformationRegister uuid="01cd1646-b3ef-4f33-b212-10d06afaa61b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияОбменСБанками" category="Record">
+				<xr:TypeId>64ed5ed9-e36e-4566-bf27-41bd75c9912c</xr:TypeId>
+				<xr:ValueId>1eeb5c3e-8510-464f-b9c2-c2c90614a512</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияОбменСБанками" category="Manager">
+				<xr:TypeId>81333921-77f2-4bd1-971a-8d811631a3d0</xr:TypeId>
+				<xr:ValueId>d995d347-c391-4564-b62d-d35ff58a8da2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияОбменСБанками" category="Selection">
+				<xr:TypeId>f8ac4563-54ec-4274-857f-ccb1d74d594f</xr:TypeId>
+				<xr:ValueId>a076678f-1de5-4102-925d-6af918da9c68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияОбменСБанками" category="List">
+				<xr:TypeId>00144b0b-babd-4d8f-8022-d8c03169e97e</xr:TypeId>
+				<xr:ValueId>2091e3ef-1d32-4c40-839a-0f6cafef3491</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияОбменСБанками" category="RecordSet">
+				<xr:TypeId>b55a5edb-b596-453f-bade-d81306df6764</xr:TypeId>
+				<xr:ValueId>bc94b112-76d7-4997-b650-2260e055b67d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияОбменСБанками" category="RecordKey">
+				<xr:TypeId>3cee3626-ec1d-41fb-aad6-909de4192ab7</xr:TypeId>
+				<xr:ValueId>1178a26c-d06e-4cbc-a103-de345b2456ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияОбменСБанками" category="RecordManager">
+				<xr:TypeId>cf3a371d-9f18-4d31-998c-44e71796aac3</xr:TypeId>
+				<xr:ValueId>f5852ece-a989-498c-b16f-03ec592ba91a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияОбменСБанками</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="bfbddc35-3d27-4e70-aa39-0fcdd5a2d153">
+				<Properties>
+					<Name>Состояние</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияОбменСБанками</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="5295056f-5db2-408d-8dc0-6d91b202291e">
+				<Properties>
+					<Name>СсылкаНаОбъект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ВладельцыОбменСБанками</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

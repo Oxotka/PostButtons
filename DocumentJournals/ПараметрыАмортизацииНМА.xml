@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="0892946a-efc5-4d82-b01c-c9342c9ffa30">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ПараметрыАмортизацииНМА" category="Selection">
+				<xr:TypeId>f273f6d3-52fb-4439-9304-d11d6a4cc174</xr:TypeId>
+				<xr:ValueId>dbce62d7-740c-413a-b026-85b81d33c061</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ПараметрыАмортизацииНМА" category="List">
+				<xr:TypeId>d1793686-1b29-4382-ac75-517dbec8f32a</xr:TypeId>
+				<xr:ValueId>2b2f441c-4825-44a5-9c13-f89f565ea256</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ПараметрыАмортизацииНМА" category="Manager">
+				<xr:TypeId>6e9d66f2-5735-43b5-ad68-1645bd3cf3de</xr:TypeId>
+				<xr:ValueId>b6a3e901-7fd1-4226-89e2-4725c677f067</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПараметрыАмортизацииНМА</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="87cf9dda-3476-4ef1-bdbd-d199160fe62d">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="b2c0861d-56d2-4e4a-92e0-f4d6ff85ed75">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="7130f313-657e-4faf-b2f4-1d7e1bf03d42">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

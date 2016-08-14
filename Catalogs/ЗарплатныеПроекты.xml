@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="9f9548be-4372-40f0-aca6-4ee19440d2c2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗарплатныеПроекты" category="Object">
+				<xr:TypeId>b6874ec2-5e69-42de-afc8-7ef5259616f0</xr:TypeId>
+				<xr:ValueId>d1d5ffc8-ecce-4fa4-acbd-d5fac6149c4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗарплатныеПроекты" category="Ref">
+				<xr:TypeId>e203cc88-7469-47fc-9aae-808917045462</xr:TypeId>
+				<xr:ValueId>875dc990-257e-478c-b85b-c41dcbd0674c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗарплатныеПроекты" category="Selection">
+				<xr:TypeId>6890fc5b-8125-40ab-89a3-59cc85240552</xr:TypeId>
+				<xr:ValueId>97f412de-ce0c-42f1-86af-51cce06ebe1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗарплатныеПроекты" category="List">
+				<xr:TypeId>844e1109-45b6-4e3c-b8ab-36745b4e9176</xr:TypeId>
+				<xr:ValueId>fda38e4a-1b28-4235-a9f8-cba59da517a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗарплатныеПроекты" category="Manager">
+				<xr:TypeId>c0181ea7-6c57-431b-a581-daa9bd5629d1</xr:TypeId>
+				<xr:ValueId>1e038d40-6142-465e-b12e-8017cfa3c23d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗарплатныеПроекты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

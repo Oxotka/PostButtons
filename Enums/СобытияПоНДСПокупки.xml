@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="34783965-461d-4f49-8117-880a99e04528">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СобытияПоНДСПокупки" category="Ref">
+				<xr:TypeId>59cdf33b-a893-405d-b107-327bf3d0928c</xr:TypeId>
+				<xr:ValueId>0e958fa5-8225-44b7-82b8-1720e37bb832</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СобытияПоНДСПокупки" category="Manager">
+				<xr:TypeId>9a2bd86a-8727-4da0-aed7-f9b9f74e2745</xr:TypeId>
+				<xr:ValueId>b3cb733d-c2fd-4908-ac52-2a73398eccf9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СобытияПоНДСПокупки" category="List">
+				<xr:TypeId>566eb094-f2fc-4781-b03a-42fb207074c3</xr:TypeId>
+				<xr:ValueId>76844bab-eb24-44b4-8564-60793ce18f6f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СобытияПоНДСПокупки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="50fa4ac3-74b8-4ddb-b196-c826eb5e7276">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокВключенияСтоимостиОСВСоставРасходовНУ" category="Ref">
+				<xr:TypeId>abd29e4a-7aff-4e23-a47d-4deab432a88c</xr:TypeId>
+				<xr:ValueId>a2a9c706-efd3-4b11-bc82-947a1317ac6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокВключенияСтоимостиОСВСоставРасходовНУ" category="Manager">
+				<xr:TypeId>eee58e2f-4bdd-462d-9558-046afe2abd75</xr:TypeId>
+				<xr:ValueId>48f501cc-8d56-4b07-aec9-1840233122e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокВключенияСтоимостиОСВСоставРасходовНУ" category="List">
+				<xr:TypeId>6153a4a2-cce7-4762-a29c-c9da2ff404da</xr:TypeId>
+				<xr:ValueId>d05e33be-0175-45ff-80b8-57811e56d640</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокВключенияСтоимостиОСВСоставРасходовНУ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="74e8a08c-52dd-418d-ad31-afb8af60ac71">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыПоступленияАктивов" category="Ref">
+				<xr:TypeId>673c2158-6a00-4d6c-b639-6e60d681c581</xr:TypeId>
+				<xr:ValueId>2bfd2113-e156-4cd5-9e00-9f0b44321d56</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыПоступленияАктивов" category="Manager">
+				<xr:TypeId>8747abe2-1487-4aaf-8ea2-436a5fb5529b</xr:TypeId>
+				<xr:ValueId>1bb5d5a9-a5bf-44c5-86d2-2899e32fcb41</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыПоступленияАктивов" category="List">
+				<xr:TypeId>b433123b-89ba-4625-b4b3-8c0cbb8b5daa</xr:TypeId>
+				<xr:ValueId>8f7dbfe2-ddca-401a-a26b-584e21e08eb2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыПоступленияАктивов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

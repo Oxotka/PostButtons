@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="29e9bd98-fbae-496b-9b70-8bfd0348c301">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Увольнение" category="Object">
+				<xr:TypeId>e3c01011-1799-41e4-a02d-d8156dbc9396</xr:TypeId>
+				<xr:ValueId>a97ef50d-1e4c-49a0-ab99-dd0236df2475</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Увольнение" category="Ref">
+				<xr:TypeId>69054a0a-221a-487c-9619-c65e2b04145f</xr:TypeId>
+				<xr:ValueId>c207812d-ca18-4917-870b-849be2295f36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Увольнение" category="Selection">
+				<xr:TypeId>cbc85bb9-c9e1-41fe-8663-7170b03f9f6e</xr:TypeId>
+				<xr:ValueId>8728d602-cdf1-4aa3-93f7-04c41b6204c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Увольнение" category="List">
+				<xr:TypeId>24c1e678-90a6-4539-bdaf-6ec39590bb92</xr:TypeId>
+				<xr:ValueId>bcbeb9da-09a3-483e-903b-5a01283d325e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Увольнение" category="Manager">
+				<xr:TypeId>b8e00244-6d18-42d0-8bb4-e8fb35fa8af7</xr:TypeId>
+				<xr:ValueId>077bf14e-a0bd-4728-a8d2-509dcf91870e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Увольнение</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="96d591d3-8402-4cf4-a0da-b047fa3d0734">
+				<Properties>
+					<Name>ОснованиеУвольнения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="84dc64e4-28c9-4234-935d-53e248a11a48">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="23fbdef0-326a-4483-bd32-7dbbc0984608">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="05588e11-0b94-4b17-b5cf-f37085284c6d">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="641198b9-5638-4b92-85e5-f24992defde7">
+				<Properties>
+					<Name>ДатаУвольнения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a49ef9ab-804a-475d-8361-2cbfad9eabd3">
+				<Properties>
+					<Name>СтатьяТКРФ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОснованияУвольнения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b7b770dc-a382-48fe-90d4-b477465928dd">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

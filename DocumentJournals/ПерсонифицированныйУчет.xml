@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="d02be52b-5ce3-4ff1-bed2-789208c48fef">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ПерсонифицированныйУчет" category="Selection">
+				<xr:TypeId>ec42a879-5c35-4219-a02e-e5bea71bbb00</xr:TypeId>
+				<xr:ValueId>191856e4-2b2e-4791-b86a-bbf6f96f5375</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ПерсонифицированныйУчет" category="List">
+				<xr:TypeId>13e3a148-5bd8-4062-a85a-c8cdef092fe2</xr:TypeId>
+				<xr:ValueId>22f8807b-6d5a-4432-b8b2-30ec6e4800d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ПерсонифицированныйУчет" category="Manager">
+				<xr:TypeId>8b25947b-abf4-4a04-ab93-c037640da3c9</xr:TypeId>
+				<xr:ValueId>8344020f-308f-418f-ae22-9997ccd74e14</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПерсонифицированныйУчет</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="487a2efa-1a38-499d-8d2d-e92966261a1a">
+				<Properties>
+					<Name>ТипСведений</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="0a6e2818-f3b0-4a0f-8223-c91a5985eb2c">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a07c7e67-62fc-4a78-9c87-3ce9bb3ec5b9">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="290fb3ad-4a83-4a74-a744-fe10c29f78ec">
+				<Properties>
+					<Name>ПринятоВПФР</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a876b6ba-755e-4400-adeb-abbe5fb79e30">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a757e5dd-c928-4a40-8586-a603d2715077">
+				<Properties>
+					<Name>ОтчетныйПериод</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="02d0a3f6-91d8-415c-a96a-cf1d2f26350e">
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="f295d57f-eb93-4ae2-9a9e-b708b00ce9c5">
+				<Properties>
+					<Name>НомерПачки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

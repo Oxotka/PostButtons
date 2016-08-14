@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="b70b10d6-5fc5-4b72-815b-733fb854337c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.БанковскиеВыписки" category="Selection">
+				<xr:TypeId>9c090858-8301-43d6-acad-534865df9b7f</xr:TypeId>
+				<xr:ValueId>745f31a3-32b9-4acc-b9a2-fef3cab58947</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.БанковскиеВыписки" category="List">
+				<xr:TypeId>6c74cce2-1d8f-4dbe-90ba-823e4bd7a4da</xr:TypeId>
+				<xr:ValueId>9abcb72a-fef2-4115-ae81-15f64966721b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.БанковскиеВыписки" category="Manager">
+				<xr:TypeId>5fe0e352-96dd-4bf9-a7b6-51046cdedd23</xr:TypeId>
+				<xr:ValueId>a42d74a1-e804-4d5a-bf3b-ee80cbaf1a4f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БанковскиеВыписки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="f3a0e068-3aaa-4d64-b701-9b6770e854a9">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="6abb5b73-ee89-4496-be5c-1abb4191ebfb">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="759feda2-bd03-4fb0-a5c0-c8acad5f8eab">
+				<Properties>
+					<Name>Поступление</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="cdab74d9-8edd-4fee-9029-187be675352a">
+				<Properties>
+					<Name>ВидОперации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="e96eddee-8540-4b2a-9d73-be355de5a197">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="727baa56-c92e-4c97-8b78-27657366ae2e">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="1cc81a3b-99ee-45f1-8414-7094c4d9e536">
+				<Properties>
+					<Name>Валюта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="74e5d59f-9aee-44d6-b596-270aeea1a643">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="9eb56a02-52df-46a2-be15-c1090ff7ec85">
+				<Properties>
+					<Name>Списание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="cc408806-7732-4f15-be8e-cbcd96eed8fb">
+				<Properties>
+					<Name>БанковскийСчет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="894458fc-210e-4413-8422-99f900da9453">
+				<Properties>
+					<Name>ДатаВходящегоДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="b44f771b-8b82-41d3-8680-10afa0a182c7">
+				<Properties>
+					<Name>НомерВходящегоДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="1631d140-ceda-4e3e-a3ec-381ecd6a719b">
+				<Properties>
+					<Name>НазначениеПлатежа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DocumentJournal uuid="c0205033-7222-41bc-a013-f47824da4344">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.КассовыеДокументы" category="Selection">
+				<xr:TypeId>e2c85551-037d-470e-83c6-8469a64342d6</xr:TypeId>
+				<xr:ValueId>4cd0dc2c-8144-4bb3-a4ee-a34f8f236684</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.КассовыеДокументы" category="List">
+				<xr:TypeId>98828aa6-db9c-4ecf-b94d-f9cc3aaa3239</xr:TypeId>
+				<xr:ValueId>1636c844-c59c-4f2c-9192-0424b2a14ed1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.КассовыеДокументы" category="Manager">
+				<xr:TypeId>201d27ec-21cd-4abe-9098-aeabb15d06a4</xr:TypeId>
+				<xr:ValueId>72da7d2e-3261-4d07-8c99-22366ded1df6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КассовыеДокументы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="2cfc9c06-8e58-42c2-89ca-ddc9da4740df">
+				<Properties>
+					<Name>Приход</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="c941d082-777f-42ed-bbfa-eaf2b7bdbc9b">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="2cbb3ad0-d65c-4e82-9cdc-31629af79be5">
+				<Properties>
+					<Name>ВидОперации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="215fb22e-d3a1-45f0-9042-e420eb5bc67d">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="4ffaad45-d052-4efc-a64e-7ecf9e9ee417">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="79f8565d-fb7f-40e0-b6ef-b0152450b875">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="2286022f-0adf-482a-9c5e-d3c0e5b377fb">
+				<Properties>
+					<Name>ПодразделениеОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="aff99e21-5e52-4f3f-bb54-da90461adbf2">
+				<Properties>
+					<Name>Валюта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="eec0ce25-9abe-4c19-9da7-36d8419aef60">
+				<Properties>
+					<Name>Расход</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="ac2cc595-5cec-460b-a54f-baa5adfd5cfd">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

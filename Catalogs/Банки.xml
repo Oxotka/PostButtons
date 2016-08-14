@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="772f50b1-81c0-4151-96c1-39198d2fa555">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Банки" category="Object">
+				<xr:TypeId>670b5f43-bdfe-4446-90fb-b3b93a620a74</xr:TypeId>
+				<xr:ValueId>090481ec-286e-4576-b6ae-999da83aa351</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Банки" category="Ref">
+				<xr:TypeId>3b3ca390-247c-4329-a41d-3aa078196bc5</xr:TypeId>
+				<xr:ValueId>bc1cd692-2567-4692-b70e-a928dee417cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Банки" category="Selection">
+				<xr:TypeId>8d4e603a-f293-40cd-8687-4aa430c647f7</xr:TypeId>
+				<xr:ValueId>c237600e-6655-4c3f-a848-13491ca50742</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Банки" category="List">
+				<xr:TypeId>f2e915d2-16cc-4593-9241-a4f6888acbd9</xr:TypeId>
+				<xr:ValueId>7b4c373c-9fb2-41ab-b5af-d1062f03d27a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Банки" category="Manager">
+				<xr:TypeId>544730eb-de12-4284-bc0f-9053c33c9913</xr:TypeId>
+				<xr:ValueId>6315d82d-5cd7-423b-9e1e-a0ded3053de7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Банки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

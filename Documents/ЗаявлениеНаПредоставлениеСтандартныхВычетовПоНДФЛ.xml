@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="cab9f337-0ba2-41fb-a2a7-d1b61e488f45">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ" category="Object">
+				<xr:TypeId>560aab3a-aaa5-4008-aef3-482d0980418a</xr:TypeId>
+				<xr:ValueId>d2d43e3b-5294-42b0-95d9-67bc2960e6f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ" category="Ref">
+				<xr:TypeId>6c777724-099b-4362-b249-8e508b7af545</xr:TypeId>
+				<xr:ValueId>84902813-0672-4491-853d-d9a4086678e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ" category="Selection">
+				<xr:TypeId>8e79f0bb-abea-4323-a9e5-c3c3feb1dd40</xr:TypeId>
+				<xr:ValueId>eab791c7-2ee0-4d4a-bde3-c28d6e8b9c3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ" category="List">
+				<xr:TypeId>dd487907-840e-4b19-bcc8-c221dcaf2d9c</xr:TypeId>
+				<xr:ValueId>5073caa1-bae8-439a-8a7a-0986fe290d55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ" category="Manager">
+				<xr:TypeId>732fdaa4-3791-456e-9bd1-f1083c7950a1</xr:TypeId>
+				<xr:ValueId>e83fdacf-0502-41ee-ad9e-4b7c1d722f82</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

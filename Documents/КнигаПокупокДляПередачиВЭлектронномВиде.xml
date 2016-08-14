@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="f817f97a-b6b0-4889-952e-c1cdb40e361a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КнигаПокупокДляПередачиВЭлектронномВиде" category="Object">
+				<xr:TypeId>09192deb-2ccf-4c53-9152-85592cac89d8</xr:TypeId>
+				<xr:ValueId>1157f22f-9647-4906-b01f-32fa27328b48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КнигаПокупокДляПередачиВЭлектронномВиде" category="Ref">
+				<xr:TypeId>401ddf96-c97c-4ec5-a7ef-f52eb4b71e11</xr:TypeId>
+				<xr:ValueId>57454ed6-4fba-4076-b3ee-52db001f3ddc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КнигаПокупокДляПередачиВЭлектронномВиде" category="Selection">
+				<xr:TypeId>4c33800b-18bf-492c-8216-5cb1f8b02e9a</xr:TypeId>
+				<xr:ValueId>646efea0-c8a6-4b58-8e1b-69b6e0ebcff0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КнигаПокупокДляПередачиВЭлектронномВиде" category="List">
+				<xr:TypeId>1e04652f-10de-40b3-9e06-76a81d579efb</xr:TypeId>
+				<xr:ValueId>6b7c7794-ad46-4c81-bf7b-2d3d84fbbbe2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КнигаПокупокДляПередачиВЭлектронномВиде" category="Manager">
+				<xr:TypeId>44622d4e-dc90-460f-b40c-a80241a89a7d</xr:TypeId>
+				<xr:ValueId>165329b8-e7ee-4cf9-8cb6-46dadeea7b9b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КнигаПокупокДляПередачиВЭлектронномВиде</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>9</NumberLength>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

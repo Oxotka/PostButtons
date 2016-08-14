@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="c3c3f7c9-0f28-4e81-843d-0af6789f02b5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НематериальныеАктивы" category="Object">
+				<xr:TypeId>4dfa8842-4bbf-4fdb-8226-024a4dc5156d</xr:TypeId>
+				<xr:ValueId>809cd2c6-f0ee-47ec-8554-265aab1a9b4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НематериальныеАктивы" category="Ref">
+				<xr:TypeId>c6378f23-2a27-4675-b532-6b35ca8c3239</xr:TypeId>
+				<xr:ValueId>46afa8f1-cfd4-4a9a-bdbb-a5e2a968f9d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НематериальныеАктивы" category="Selection">
+				<xr:TypeId>0b86c30b-44a2-4be7-84f4-10e745473a16</xr:TypeId>
+				<xr:ValueId>1d167893-7efd-4f31-b7d1-6d09fb53a787</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НематериальныеАктивы" category="List">
+				<xr:TypeId>99febe65-eb87-4364-b982-eb43ba83e3c6</xr:TypeId>
+				<xr:ValueId>a45a5cb7-8d5b-48f7-9ee7-34b085c6fc15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НематериальныеАктивы" category="Manager">
+				<xr:TypeId>d719391d-4a47-42bc-a4dc-683fc9b39c2a</xr:TypeId>
+				<xr:ValueId>6a9f7c9b-03e4-4658-becc-6cdfdbb4bc7a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НематериальныеАктивы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

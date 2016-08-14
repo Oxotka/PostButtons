@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Constant uuid="bb34151c-c4d2-4fae-914b-f897f752710e">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ВедетсяУчетОсновныхСредств" category="Manager">
+				<xr:TypeId>759ad922-2070-4a3c-a710-ff84c8dbdf73</xr:TypeId>
+				<xr:ValueId>ad1d2b40-bd43-439b-8f0f-e41a6a5c5b59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ВедетсяУчетОсновныхСредств" category="ValueManager">
+				<xr:TypeId>a18fdb0d-39b2-4b8d-98e4-8702a9912c7f</xr:TypeId>
+				<xr:ValueId>46a1bc1c-9700-40b6-b22c-34b8d91d2a24</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВедетсяУчетОсновныхСредств</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

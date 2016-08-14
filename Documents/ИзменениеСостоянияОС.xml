@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="679de53a-22b7-4f98-b01a-acf62b46a599">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеСостоянияОС" category="Object">
+				<xr:TypeId>c35062c8-e67e-4bb9-99ce-c3affd553672</xr:TypeId>
+				<xr:ValueId>3d2202d4-012a-4c5a-8407-417fd6470d18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеСостоянияОС" category="Ref">
+				<xr:TypeId>b5b3e4dc-6dc1-422d-b4a0-3f22cbde044b</xr:TypeId>
+				<xr:ValueId>f9c6c630-64a6-4175-bdfd-896725b13dad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеСостоянияОС" category="Selection">
+				<xr:TypeId>59511180-0954-496a-ba3a-0969e5b3ed2e</xr:TypeId>
+				<xr:ValueId>851dfdcf-3ec1-4ee5-b8d0-4ca06ddd31b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеСостоянияОС" category="List">
+				<xr:TypeId>1159403e-f0a8-48f7-99d7-b6d638b84b4a</xr:TypeId>
+				<xr:ValueId>44dfe182-638f-465d-a995-139735572d4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеСостоянияОС" category="Manager">
+				<xr:TypeId>eb3368e8-ed22-44d2-af12-927cddf570eb</xr:TypeId>
+				<xr:ValueId>7b8ae0a6-da46-41b5-bfee-0440789da52d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеСостоянияОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3e3680ff-5834-44ce-be22-269fdd7305de">
+				<Properties>
+					<Name>ВлияетНаНачислениеАмортизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5c3f2842-1a35-459a-bac8-7e591069c932">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c5d572c6-bd11-4489-b42d-eef4d091d522">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="721d4703-570c-4768-b373-60497ceab5f0">
+				<Properties>
+					<Name>ОтражатьВНалоговомУчете</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="60691dde-da9f-43c4-a8e1-dc98b18b485c">
+				<Properties>
+					<Name>НачислятьАмортизацию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b66a925c-a71a-4cf4-b2b6-d2b3127657ec">
+				<Properties>
+					<Name>СобытиеОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СобытияОС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3f977a3d-14e1-498a-87de-ef73177ea5bb">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dac5414f-636c-4084-8ae6-6e98da281839">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="836519de-42cb-4589-ba72-546381fff050">
+				<Properties>
+					<Name>ОтражатьВБухгалтерскомУчете</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="53814771-11b7-4e27-9d00-bfd4d6a1fe38">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеСостоянияОС.ОС" category="TabularSection">
+						<xr:TypeId>bd461770-a3a2-43c6-bfed-37962e72ce86</xr:TypeId>
+						<xr:ValueId>91dded7e-d8a5-441c-8d3d-cf7e8419cb93</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеСостоянияОС.ОС" category="TabularSectionRow">
+						<xr:TypeId>9641592e-aa97-4880-8b69-7c22b409dfc6</xr:TypeId>
+						<xr:ValueId>2a183b7d-d05a-490c-961a-d32d19141d9b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6b69c715-bc29-4846-8080-5f6b2972f06e">
+						<Properties>
+							<Name>ОсновноеСредство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОсновныеСредства</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

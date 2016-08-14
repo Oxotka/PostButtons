@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="39e30436-3eff-4aa5-b84e-3dc7636d23c9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПартияМатериаловВЭксплуатации" category="Object">
+				<xr:TypeId>bfed32e1-f8b5-43cb-b1c3-134858bd2eb3</xr:TypeId>
+				<xr:ValueId>8b509c00-f759-4ed3-afab-6b7d51bd71d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПартияМатериаловВЭксплуатации" category="Ref">
+				<xr:TypeId>9eeddc97-698d-4d68-8aa7-254772ce7558</xr:TypeId>
+				<xr:ValueId>0c59a150-6ee8-4fc9-8860-3113029b2109</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПартияМатериаловВЭксплуатации" category="Selection">
+				<xr:TypeId>f1f056c2-20e9-4a53-89c2-3ee9b4bb5c69</xr:TypeId>
+				<xr:ValueId>ab90ca51-84b4-4349-961d-f77c0578505b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПартияМатериаловВЭксплуатации" category="List">
+				<xr:TypeId>9a73ec4d-6a69-4c62-a158-d537a92d1e82</xr:TypeId>
+				<xr:ValueId>f1912a95-4c74-4501-8e69-a97a9bc8ca82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПартияМатериаловВЭксплуатации" category="Manager">
+				<xr:TypeId>865db283-3ea2-4566-988b-4f036719751d</xr:TypeId>
+				<xr:ValueId>ca746961-39c4-4ecc-a045-3b993c900613</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПартияМатериаловВЭксплуатации</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="475de530-9a39-42bd-a5c4-674ec15ef36a">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8cc1f405-3247-43a2-a2bd-91ac0a783fcf">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c68b573c-cf85-4c1b-929a-590c4f923f3c">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8d2eb509-ec62-40b0-9fa7-d8a7a1d4936e">
+				<Properties>
+					<Name>НазначениеИспользования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НазначенияИспользования</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

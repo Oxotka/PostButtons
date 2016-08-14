@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="8c395204-446a-4749-b290-fa17b7580135">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыСписанияРасходов" category="Ref">
+				<xr:TypeId>60a042bc-7c73-419c-8b70-1a58d8b9db42</xr:TypeId>
+				<xr:ValueId>4cee35f1-f8b8-452b-8c99-57f89e8a5618</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыСписанияРасходов" category="Manager">
+				<xr:TypeId>d55b8301-6e10-463c-a7bf-b3db033c5f07</xr:TypeId>
+				<xr:ValueId>656b8902-4fe5-4d12-9b26-685bc683a3c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыСписанияРасходов" category="List">
+				<xr:TypeId>64fae5d9-7e5a-49a8-a49e-9f4ccddde3c5</xr:TypeId>
+				<xr:ValueId>2a7e026c-0dd8-457b-a5ac-02b5cc8811f6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыСписанияРасходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

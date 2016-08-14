@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="96131445-37fd-49c1-a7c3-c7e54f7090c1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыОплатОрганизаций" category="Object">
+				<xr:TypeId>397672ec-4d62-451a-a159-fd2f86b66c89</xr:TypeId>
+				<xr:ValueId>4ac1b42a-0cdb-4b6b-9d6d-eefa344282dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыОплатОрганизаций" category="Ref">
+				<xr:TypeId>3bd392ad-c447-4c15-881f-0a19192c9e05</xr:TypeId>
+				<xr:ValueId>6cd5d2f4-89b2-4550-b58f-ce7832097982</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыОплатОрганизаций" category="Selection">
+				<xr:TypeId>a98aa8fa-493e-4f66-a069-d28429179b66</xr:TypeId>
+				<xr:ValueId>3ebae56d-fb5d-44b8-a4df-abad95fe0485</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыОплатОрганизаций" category="List">
+				<xr:TypeId>22025324-31fb-4276-84b3-8adf6efed2f8</xr:TypeId>
+				<xr:ValueId>2163c646-a77d-49f4-b041-7aab9aeb9d3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыОплатОрганизаций" category="Manager">
+				<xr:TypeId>a692f876-5ca0-42a7-b55a-74edfe9c4ec5</xr:TypeId>
+				<xr:ValueId>6c59fcef-bf04-4fb2-868b-10ca94716334</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОплатОрганизаций</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
