@@ -41,7 +41,7 @@
 			<ConfigurationExtensionCompatibilityMode>DontUse</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.1</Version>
+			<Version>1.2</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -314,7 +314,6 @@
 			<InformationRegister>РеквизитыПлатежныхДокументовПеречисленияЗарплаты</InformationRegister>
 			<InformationRegister>СостоянияБанковскихДокументов</InformationRegister>
 			<InformationRegister>СостоянияОбменСБанками</InformationRegister>
-			<InformationRegister>СостоянияЭД</InformationRegister>
 			<InformationRegister>СрокиОплатыДокументов</InformationRegister>
 			<InformationRegister>СтатусыДокументов</InformationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
