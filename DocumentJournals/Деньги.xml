@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<DocumentJournal uuid="227e8bb0-91d8-41b1-b882-f76215e663b3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.Деньги" category="Selection">
+				<xr:TypeId>d5e6aa6f-2393-4402-a4e4-12ad0ece4c06</xr:TypeId>
+				<xr:ValueId>3783cdd5-77bb-4883-996d-8f9f7fcb1b2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.Деньги" category="List">
+				<xr:TypeId>dde907fd-0901-408e-b63a-b9c9ce0382fe</xr:TypeId>
+				<xr:ValueId>d660f052-6f00-46c4-99c6-cbe5232b60fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.Деньги" category="Manager">
+				<xr:TypeId>64da7595-a877-4ccc-8f29-cf9b8dd81f25</xr:TypeId>
+				<xr:ValueId>0869a385-a2c6-4ab3-8a73-e36259224774</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Деньги</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеНаРасчетныйСчет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеСРасчетногоСчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходныйКассовыйОрдер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходныйКассовыйОрдер</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="e1dbe2c9-fa8f-437b-ba15-4a22976561a9">
+				<Properties>
+					<Name>Расход</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="9c3e0d52-c542-4b23-9429-865595c11afe">
+				<Properties>
+					<Name>ВидОперации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="af4e5c4b-cf16-477c-8f2f-42344062e9c7">
+				<Properties>
+					<Name>НомерВходящегоДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="5365e31c-765b-401d-b0d3-acf5b02ac244">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="bd08099d-c40d-4791-ac4a-bbbe5a1adfed">
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="6800cf75-20dd-4917-a87b-295331161b70">
+				<Properties>
+					<Name>ДатаВходящегоДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="306e9515-76e2-4479-bd42-5f55336b9571">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="c71f025b-d557-498a-bf26-c9c742b69d93">
+				<Properties>
+					<Name>НазначениеПлатежа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="e2b6e040-56ea-4621-8556-402955cbc35f">
+				<Properties>
+					<Name>Валюта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="e13d37cd-9a1f-457e-91ac-9e0f82cac343">
+				<Properties>
+					<Name>Доход</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="3066311f-753f-48a5-90d6-f4ca24984010">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="4547578e-0305-4e0d-b3a5-28db440aa031">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="0a1bd0f8-5edd-4dba-afcf-eb6e3a3ee40b">
+				<Properties>
+					<Name>БанковскийСчет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="d4b21e78-8919-43f3-bfaa-414ad35e2086">
+				<Properties>
+					<Name>ПодразделениеОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>БанковскиеВыписки</Form>
+			<Form>КассовыеДокументы</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>
