@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -430,7 +430,7 @@
 								<Button name="ОбщаяКомандаПоказатьДвиженияДокумента" id="96">
 									<Type>CommandBarButton</Type>
 									<CommandName>CommonCommand.ПоказатьДвиженияДокумента</CommandName>
-									<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаПоказатьДвиженияДокументаРасширеннаяПодсказка" id="153"/>
 								</Button>
 								<Button name="ФормаОткрытьКлиентБанк" id="357">
@@ -484,19 +484,19 @@
 								<Button name="ОбщаяКомандаСтруктураПодчиненности" id="98">
 									<Type>CommandBarButton</Type>
 									<CommandName>CommonCommand.СтруктураПодчиненности</CommandName>
-									<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="155"/>
 								</Button>
 								<Button name="ОбщаяКомандаПрисоединенныеФайлы" id="339">
 									<Type>CommandBarButton</Type>
 									<CommandName>CommonCommand.ПрисоединенныеФайлыБП</CommandName>
-									<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаПрисоединенныеФайлыРасширеннаяПодсказка" id="340"/>
 								</Button>
 								<Button name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="97">
 									<Type>CommandBarButton</Type>
 									<CommandName>CommonCommand.ДополнительныеСведенияКоманднаяПанель</CommandName>
-									<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="154"/>
 								</Button>
 							</ChildItems>
@@ -565,7 +565,7 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<DataPath>Список</DataPath>
-			<RowPictureDataPath>Список.СостояниеДокумента</RowPictureDataPath>
+			<RowPictureDataPath>~Список.СостояниеДокумента</RowPictureDataPath>
 			<RowsPicture>
 				<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -660,7 +660,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<PictureField name="ЕстьФайлы" id="341">
-					<DataPath>Список.ЕстьФайлы</DataPath>
+					<DataPath>~Список.ЕстьФайлы</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
@@ -681,7 +681,7 @@
 					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="343"/>
 				</PictureField>
 				<LabelField name="Дата" id="4">
-					<DataPath>Список.Дата</DataPath>
+					<DataPath>~Список.Дата</DataPath>
 					<Width>7</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Format>
@@ -694,19 +694,19 @@
 					<ExtendedTooltip name="ДатаExtendedTooltip" id="162"/>
 				</LabelField>
 				<LabelField name="Поступление" id="16">
-					<DataPath>Список.Поступление</DataPath>
+					<DataPath>~Список.Поступление</DataPath>
 					<Width>10</Width>
 					<ContextMenu name="ПоступлениеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ПоступлениеExtendedTooltip" id="163"/>
 				</LabelField>
 				<LabelField name="Списание" id="18">
-					<DataPath>Список.Списание</DataPath>
+					<DataPath>~Список.Списание</DataPath>
 					<Width>10</Width>
 					<ContextMenu name="СписаниеКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="СписаниеExtendedTooltip" id="164"/>
 				</LabelField>
 				<LabelField name="Валюта" id="20">
-					<DataPath>Список.Валюта</DataPath>
+					<DataPath>~Список.Валюта</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -716,20 +716,20 @@
 					<ExtendedTooltip name="ВалютаExtendedTooltip" id="172"/>
 				</LabelField>
 				<LabelField name="НазначениеПлатежа" id="30">
-					<DataPath>Список.НазначениеПлатежа</DataPath>
+					<DataPath>~Список.НазначениеПлатежа</DataPath>
 					<Width>40</Width>
 					<ContextMenu name="НазначениеПлатежаКонтекстноеМеню" id="31"/>
 					<ExtendedTooltip name="НазначениеПлатежаExtendedTooltip" id="165"/>
 				</LabelField>
 				<LabelField name="Контрагент" id="14">
-					<DataPath>Список.Контрагент</DataPath>
+					<DataPath>~Список.Контрагент</DataPath>
 					<Width>25</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="КонтрагентКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="КонтрагентExtendedTooltip" id="166"/>
 				</LabelField>
 				<LabelField name="ВидОперации" id="22">
-					<DataPath>Список.ВидОперации</DataPath>
+					<DataPath>~Список.ВидОперации</DataPath>
 					<Width>17</Width>
 					<Height>1</Height>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -737,7 +737,7 @@
 					<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="167"/>
 				</LabelField>
 				<LabelField name="НомерВходящегоДокумента" id="26">
-					<DataPath>Список.НомерВходящегоДокумента</DataPath>
+					<DataPath>~Список.НомерВходящегоДокумента</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -750,7 +750,7 @@
 					<ExtendedTooltip name="НомерВходящегоДокументаExtendedTooltip" id="168"/>
 				</LabelField>
 				<LabelField name="ДатаВходящегоДокумента" id="24">
-					<DataPath>Список.ДатаВходящегоДокумента</DataPath>
+					<DataPath>~Список.ДатаВходящегоДокумента</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -769,17 +769,17 @@
 					<ExtendedTooltip name="ДатаВходящегоДокументаExtendedTooltip" id="169"/>
 				</LabelField>
 				<LabelField name="Организация" id="10">
-					<DataPath>Список.Организация</DataPath>
+					<DataPath>~Список.Организация</DataPath>
 					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="170"/>
 				</LabelField>
 				<LabelField name="БанковскийСчет" id="12">
-					<DataPath>Список.БанковскийСчет</DataPath>
+					<DataPath>~Список.БанковскийСчет</DataPath>
 					<ContextMenu name="БанковскийСчетКонтекстноеМеню" id="13"/>
 					<ExtendedTooltip name="БанковскийСчетExtendedTooltip" id="171"/>
 				</LabelField>
 				<LabelField name="Номер" id="6">
-					<DataPath>Список.Номер</DataPath>
+					<DataPath>~Список.Номер</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -788,7 +788,7 @@
 					<ExtendedTooltip name="НомерExtendedTooltip" id="173"/>
 				</LabelField>
 				<LabelField name="Ответственный" id="76">
-					<DataPath>Список.Ответственный</DataPath>
+					<DataPath>~Список.Ответственный</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -796,12 +796,12 @@
 					<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="174"/>
 				</LabelField>
 				<LabelField name="Комментарий" id="78">
-					<DataPath>Список.Комментарий</DataPath>
+					<DataPath>~Список.Комментарий</DataPath>
 					<ContextMenu name="КомментарийКонтекстноеМеню" id="79"/>
 					<ExtendedTooltip name="КомментарийExtendedTooltip" id="175"/>
 				</LabelField>
 				<LabelField name="Ссылка" id="421">
-					<DataPath>Список.Ссылка</DataPath>
+					<DataPath>~Список.Ссылка</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -945,13 +945,12 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.Ссылка</Field>
-				<Field>Список.Организация</Field>
-				<Field>Список.Дата</Field>
-				<Field>Список.БанковскийСчет</Field>
-				<Field>1/39</Field>
-				<Field>1/34</Field>
-				<Field>1/156</Field>
+				<Field>~Список.Ссылка</Field>
+				<Field>~Список.Организация</Field>
+				<Field>~Список.Дата</Field>
+				<Field>~Список.БанковскийСчет</Field>
+				<Field>~Список.Ref</Field>
+				<Field>~Список.Date</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -1667,7 +1666,7 @@
 				<xr:Common>false</xr:Common>
 			</Use>
 			<FunctionalOptions>
-				<Item>FunctionalOption.Новости_РазрешенаРаботаСНовостями</Item>
+				<Item>ccd95821-a3d1-4a30-9602-8d3e70355599</Item>
 			</FunctionalOptions>
 		</Command>
 		<Command name="СоздатьНаОсновании" id="9">
@@ -1713,7 +1712,7 @@
 			</ToolTip>
 		</Command>
 	</Commands>
-	<BaseForm version="2.3">
+	<BaseForm version="2.4">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -2119,7 +2118,7 @@
 									<Button name="ОбщаяКомандаПоказатьДвиженияДокумента" id="96">
 										<Type>CommandBarButton</Type>
 										<CommandName>CommonCommand.ПоказатьДвиженияДокумента</CommandName>
-										<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ОбщаяКомандаПоказатьДвиженияДокументаРасширеннаяПодсказка" id="153"/>
 									</Button>
 									<Button name="ФормаОткрытьКлиентБанк" id="357">
@@ -2173,19 +2172,19 @@
 									<Button name="ОбщаяКомандаСтруктураПодчиненности" id="98">
 										<Type>CommandBarButton</Type>
 										<CommandName>CommonCommand.СтруктураПодчиненности</CommandName>
-										<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="155"/>
 									</Button>
 									<Button name="ОбщаяКомандаПрисоединенныеФайлы" id="339">
 										<Type>CommandBarButton</Type>
 										<CommandName>CommonCommand.ПрисоединенныеФайлыБП</CommandName>
-										<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ОбщаяКомандаПрисоединенныеФайлыРасширеннаяПодсказка" id="340"/>
 									</Button>
 									<Button name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="97">
 										<Type>CommandBarButton</Type>
 										<CommandName>CommonCommand.ДополнительныеСведенияКоманднаяПанель</CommandName>
-										<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="154"/>
 									</Button>
 								</ChildItems>
@@ -2254,7 +2253,7 @@
 				<EnableStartDrag>true</EnableStartDrag>
 				<EnableDrag>true</EnableDrag>
 				<DataPath>Список</DataPath>
-				<RowPictureDataPath>Список.СостояниеДокумента</RowPictureDataPath>
+				<RowPictureDataPath>~Список.СостояниеДокумента</RowPictureDataPath>
 				<RowsPicture>
 					<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -2349,7 +2348,7 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<PictureField name="ЕстьФайлы" id="341">
-						<DataPath>Список.ЕстьФайлы</DataPath>
+						<DataPath>~Список.ЕстьФайлы</DataPath>
 						<TitleLocation>None</TitleLocation>
 						<ToolTip>
 							<v8:item>
@@ -2370,7 +2369,7 @@
 						<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="343"/>
 					</PictureField>
 					<LabelField name="Дата" id="4">
-						<DataPath>Список.Дата</DataPath>
+						<DataPath>~Список.Дата</DataPath>
 						<Width>7</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<Format>
@@ -2383,19 +2382,19 @@
 						<ExtendedTooltip name="ДатаExtendedTooltip" id="162"/>
 					</LabelField>
 					<LabelField name="Поступление" id="16">
-						<DataPath>Список.Поступление</DataPath>
+						<DataPath>~Список.Поступление</DataPath>
 						<Width>10</Width>
 						<ContextMenu name="ПоступлениеКонтекстноеМеню" id="17"/>
 						<ExtendedTooltip name="ПоступлениеExtendedTooltip" id="163"/>
 					</LabelField>
 					<LabelField name="Списание" id="18">
-						<DataPath>Список.Списание</DataPath>
+						<DataPath>~Список.Списание</DataPath>
 						<Width>10</Width>
 						<ContextMenu name="СписаниеКонтекстноеМеню" id="19"/>
 						<ExtendedTooltip name="СписаниеExtendedTooltip" id="164"/>
 					</LabelField>
 					<LabelField name="Валюта" id="20">
-						<DataPath>Список.Валюта</DataPath>
+						<DataPath>~Список.Валюта</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2405,20 +2404,20 @@
 						<ExtendedTooltip name="ВалютаExtendedTooltip" id="172"/>
 					</LabelField>
 					<LabelField name="НазначениеПлатежа" id="30">
-						<DataPath>Список.НазначениеПлатежа</DataPath>
+						<DataPath>~Список.НазначениеПлатежа</DataPath>
 						<Width>40</Width>
 						<ContextMenu name="НазначениеПлатежаКонтекстноеМеню" id="31"/>
 						<ExtendedTooltip name="НазначениеПлатежаExtendedTooltip" id="165"/>
 					</LabelField>
 					<LabelField name="Контрагент" id="14">
-						<DataPath>Список.Контрагент</DataPath>
+						<DataPath>~Список.Контрагент</DataPath>
 						<Width>25</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="КонтрагентКонтекстноеМеню" id="15"/>
 						<ExtendedTooltip name="КонтрагентExtendedTooltip" id="166"/>
 					</LabelField>
 					<LabelField name="ВидОперации" id="22">
-						<DataPath>Список.ВидОперации</DataPath>
+						<DataPath>~Список.ВидОперации</DataPath>
 						<Width>17</Width>
 						<Height>1</Height>
 						<HorizontalStretch>false</HorizontalStretch>
@@ -2426,7 +2425,7 @@
 						<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="167"/>
 					</LabelField>
 					<LabelField name="НомерВходящегоДокумента" id="26">
-						<DataPath>Список.НомерВходящегоДокумента</DataPath>
+						<DataPath>~Список.НомерВходящегоДокумента</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2439,7 +2438,7 @@
 						<ExtendedTooltip name="НомерВходящегоДокументаExtendedTooltip" id="168"/>
 					</LabelField>
 					<LabelField name="ДатаВходящегоДокумента" id="24">
-						<DataPath>Список.ДатаВходящегоДокумента</DataPath>
+						<DataPath>~Список.ДатаВходящегоДокумента</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2458,17 +2457,17 @@
 						<ExtendedTooltip name="ДатаВходящегоДокументаExtendedTooltip" id="169"/>
 					</LabelField>
 					<LabelField name="Организация" id="10">
-						<DataPath>Список.Организация</DataPath>
+						<DataPath>~Список.Организация</DataPath>
 						<ContextMenu name="ОрганизацияКонтекстноеМеню" id="11"/>
 						<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="170"/>
 					</LabelField>
 					<LabelField name="БанковскийСчет" id="12">
-						<DataPath>Список.БанковскийСчет</DataPath>
+						<DataPath>~Список.БанковскийСчет</DataPath>
 						<ContextMenu name="БанковскийСчетКонтекстноеМеню" id="13"/>
 						<ExtendedTooltip name="БанковскийСчетExtendedTooltip" id="171"/>
 					</LabelField>
 					<LabelField name="Номер" id="6">
-						<DataPath>Список.Номер</DataPath>
+						<DataPath>~Список.Номер</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2477,7 +2476,7 @@
 						<ExtendedTooltip name="НомерExtendedTooltip" id="173"/>
 					</LabelField>
 					<LabelField name="Ответственный" id="76">
-						<DataPath>Список.Ответственный</DataPath>
+						<DataPath>~Список.Ответственный</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2485,12 +2484,12 @@
 						<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="174"/>
 					</LabelField>
 					<LabelField name="Комментарий" id="78">
-						<DataPath>Список.Комментарий</DataPath>
+						<DataPath>~Список.Комментарий</DataPath>
 						<ContextMenu name="КомментарийКонтекстноеМеню" id="79"/>
 						<ExtendedTooltip name="КомментарийExtendedTooltip" id="175"/>
 					</LabelField>
 					<LabelField name="Ссылка" id="421">
-						<DataPath>Список.Ссылка</DataPath>
+						<DataPath>~Список.Ссылка</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2634,13 +2633,12 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
-					<Field>Список.Ссылка</Field>
-					<Field>Список.Организация</Field>
-					<Field>Список.Дата</Field>
-					<Field>Список.БанковскийСчет</Field>
-					<Field>1/39</Field>
-					<Field>1/34</Field>
-					<Field>1/156</Field>
+					<Field>~Список.Ссылка</Field>
+					<Field>~Список.Организация</Field>
+					<Field>~Список.Дата</Field>
+					<Field>~Список.БанковскийСчет</Field>
+					<Field>~Список.Ref</Field>
+					<Field>~Список.Date</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -3356,7 +3354,7 @@
 					<xr:Common>false</xr:Common>
 				</Use>
 				<FunctionalOptions>
-					<Item>FunctionalOption.Новости_РазрешенаРаботаСНовостями</Item>
+					<Item>ccd95821-a3d1-4a30-9602-8d3e70355599</Item>
 				</FunctionalOptions>
 			</Command>
 			<Command name="СоздатьНаОсновании" id="9">
